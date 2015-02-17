@@ -1197,6 +1197,10 @@ img {
 /**
  * Content
  */
+
+.lowerCase {
+	text-transform: none;
+}
 .content-section {
 	background-color: #ffffff;
 	color: #000000;
@@ -2700,12 +2704,4 @@ img {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	margin-top: 30px;
-}
-
-/**
- * Customizations
- */
-
-.lowerCase {
-	text-transform: none;
 }
