@@ -1,0 +1,53 @@
+/*
+Theme Name: OneUp-child
+Theme URI: http://themeforest.net
+Description: OneUp Theme
+Version: 1.4.0
+Author: pixelentity
+Author URI: http://themeforest.net/user/pixelentity
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: photoblogging
+Template: oneup
+*/
+
+@import url("../oneup/style.css");
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+#controlButton{
+	position:absolute;
+	width:300px;
+	right:130px;
+	top:50px;
+	z-index: 100;
+	float:right;
+	text-align:right;
+
+}
+
+@media (max-width: 1023px) {
+#controlButton{
+	position:absolute;
+	width:150px;
+	right:10px;
+	top:50px;
+	z-index: 100;
+	float:right;
+	text-align:right;
+	}
+}
+
+.peIsotope.portfolio .peIsotopeGrid .peIsotopeItem span.cell-title a{
+		color:#444;
+		font-size:14px;
+		font-weight:600;
+		display:block;
+		margin-bottom:0px;
+	}
+
+	.footer2{
+		margin-top:0;
+}

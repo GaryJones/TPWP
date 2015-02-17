@@ -1,0 +1,14 @@
+Options -Indexes
+
+AddType video/ogg .ogv
+AddType audio/ogg .oga
+AddType video/mp4 .m4v .mp4
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
