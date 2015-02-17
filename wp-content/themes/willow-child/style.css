@@ -2701,3 +2701,11 @@ img {
 	letter-spacing: 1px;
 	margin-top: 30px;
 }
+
+/**
+ * Customizations
+ */
+
+.lowerCase {
+	text-transform: none;
+}
