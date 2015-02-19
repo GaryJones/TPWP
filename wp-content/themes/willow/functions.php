@@ -198,6 +198,7 @@ function willow_action_enqueue_scripts() {
 		'animate',
 		'mediaelement',
 		'willow-jquery-magnific-popup',
+        'custom.style.css'
 	), $theme_data->get( 'Version' ) );
 	wp_enqueue_style( 'willow-style' );
 
