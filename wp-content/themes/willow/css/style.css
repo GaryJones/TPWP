@@ -2705,3 +2705,6 @@ img {
 	letter-spacing: 1px;
 	margin-top: 30px;
 }
+
+.no-border {border: none !important;}
+

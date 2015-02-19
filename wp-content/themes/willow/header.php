@@ -120,8 +120,12 @@
 
 												<?php if ( count( $texts ) > 1 ) : ?>
 													<ul class="text-rotator" <?php echo willow_data_printer(array('interval' => $middle_text_interval)); ?>>
-														<?php foreach ( $texts as $text ) : ?>
-															<li><span><?php echo $text; ?></span></li>
+														<?php foreach ( $texts as $key=>$text ) : ?>
+															<li><span <?php if($key > 0)
+                                                                    echo "class='no-border'"; ?>>
+                                                                    <?php echo $text; ?>
+                                                                </span>
+                                                            </li>
 														<?php endforeach; ?>
 													</ul>
 												<?php else : ?>
