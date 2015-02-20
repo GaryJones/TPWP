@@ -2706,5 +2706,7 @@ img {
 	margin-top: 30px;
 }
 
+/**
+ * WordPress Custom
+ */
 .no-border {border: none !important;}
-
