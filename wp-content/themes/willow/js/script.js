@@ -2,7 +2,8 @@
 	"use strict";
 
     function switchRotatorItem(_this, interval) {
-        var nextItem = _this.find('.active').next('li');
+        console.log(interval);
+        var nextItem = _this.next('li');
         _this.find('.active').fadeOut( 100, function() {
             $(this).removeClass('active');
             nextItem.fadeIn(100).addClass('active');
