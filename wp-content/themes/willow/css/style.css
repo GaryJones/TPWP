@@ -29,9 +29,17 @@
 }
 #events h2{
 	color: #ffffff !important;
-	font-family: "Raleway" !important;
+	/*font-family: "Raleway" !important;*/
+}
+#releaseLeft {
+
+}
+#releaseRight {
+
 }
 
+#releaseRight span {
+}
 /**
  * WordPress Core
  */
