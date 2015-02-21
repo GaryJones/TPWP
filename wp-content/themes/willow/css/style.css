@@ -31,11 +31,15 @@
 	color: #ffffff !important;
 	font-family: "Raleway" !important;
 }
+#releaseWrap {
+	width:100%;
+	float:left;
+}
 #releaseLeft {
-
+	float: left;
 }
 #releaseRight {
-
+	float: right;
 }
 
 #releaseRight span {
