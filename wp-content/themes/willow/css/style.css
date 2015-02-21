@@ -42,10 +42,12 @@
 #releaseLeft {
 	width:75%;
 	text-align: left;
+	float: left;
 }
 #releaseRight {
 	width:25%;
 	text-align: left;
+	float: left;
 }
 
 #releaseRight span {
