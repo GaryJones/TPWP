@@ -6,6 +6,10 @@
 	float: right;
 }
 
+#about {
+	padding-top: 80px !important;
+}
+
 /**
  * WordPress Core
  */
@@ -2444,7 +2448,7 @@ img {
 .wpb_willow_section_heading .section-title {
 	position: relative;
 	margin: 0 0 40px;
-	font-size: 40px;
+	font-size: 65px;
 	font-weight: 800;
 	letter-spacing: 5px;
 	text-transform: uppercase;
