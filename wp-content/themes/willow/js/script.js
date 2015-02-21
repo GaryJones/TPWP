@@ -18,15 +18,45 @@
         });
     }
 
+    function switchQuoteItem(el, currentItem, interval) {
+        if(currentItem.next('li').size() > 0) {
+            var nextItem = currentItem.next('li');
+        }else {
+            var nextItem = el.find('li').first();
+        }
+
+        currentItem.fadeOut( 100, function() {
+            currentItem.removeClass('fadeInDown');
+            nextItem.fadeIn(100).addClass('fadeInDown');
+
+            setTimeout(function() {
+                switchRotatorItem(el, nextItem, interval);
+            }, interval);
+        });
+    }
+
 	$( document ).on( 'ready', function() {
 
-        $( '.quotes-rotator, .awards-rotator, .festivals-rotator' ).each(function( i, el ) {
+        /* awards + festivals */
+        $( '.awards-rotator, .festivals-rotator' ).each(function( i, el ) {
             var _this = $(this),
                 firstItem = _this.find('li').first();
             firstItem.addClass('active').fadeIn(100);
 
             setTimeout(function() {
                 switchRotatorItem(_this, firstItem, _this.data('interval'));
+            }, _this.data('interval'));
+
+        });
+
+        /* quotes */
+        $( '.quotes-rotator' ).each(function( i, el ) {
+            var _this = $(this),
+                firstItem = _this.find('li').first();
+            firstItem.addClass('fadeInDown').fadeIn(100);
+
+            setTimeout(function() {
+                switchQuoteItem(_this, firstItem, _this.data('interval'));
             }, _this.data('interval'));
 
         });

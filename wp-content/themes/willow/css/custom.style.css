@@ -1,7 +1,16 @@
 /**
  * WordPress Custom
  */
+
+/* general */
 .no-border {border: none !important;}
+.fadeInDown {
+	display: block;
+	-webkit-animation-name: fadeInDown;
+	-moz-animation-name: fadeInDown;
+	-o-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+}
 
 /* "hero" top section */
 .hero-text {z-index:2;}
@@ -42,13 +51,19 @@
 			font-family: "Georgia";
 			font-style: italic;
 		}
-			.hero-section .bottom-rotators .quotes-rotator span {
-				text-transform: uppercase;
-				font-family: Raleway;
-				font-style: normal;
-				font-weight: 500;
-				letter-spacing: -3px;
+			.hero-section .bottom-rotators .quotes-rotator li {
+				-webkit-animation-duration: 1s;
+				animation-duration: 1s;
+				-webkit-animation-fill-mode: both;
+				animation-fill-mode: both;
 			}
+				.hero-section .bottom-rotators .quotes-rotator li span {
+					text-transform: uppercase;
+					font-family: Raleway;
+					font-style: normal;
+					font-weight: 500;
+					letter-spacing: -3px;
+				}
 
 	.hero-section .bottom-rotators .awards-rotator img, .hero-section .bottom-rotators .festivals-rotator img {
 		width: 100%;
