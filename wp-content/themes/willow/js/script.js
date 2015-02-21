@@ -1,15 +1,16 @@
 ;(function( $ ) {
 	"use strict";
 
-    function switchRotatorItem(_this, interval) {
+    function switchRotatorItem(el, currentItem, interval) {
         console.log(interval);
-        var nextItem = _this.next('li');
-        _this.find('.active').fadeOut( 100, function() {
-            $(this).removeClass('active');
+        var nextItem = currentItem.next('li');
+
+        currentItem.fadeOut( 100, function() {
+            currentItem.removeClass('active');
             nextItem.fadeIn(100).addClass('active');
 
             setTimeout(function() {
-                switchRotatorItem(nextItem, interval);
+                switchRotatorItem(el, nextItem, interval);
             }, interval);
         });
     }
@@ -17,11 +18,12 @@
 	$( document ).on( 'ready', function() {
 
         $( '.quotes-rotator, .awards-rotator, .festivals-rotator' ).each(function( i, el ) {
-            var _this = $(this);
-            _this.find('li').first().addClass('active').fadeIn(100);
+            var _this = $(this),
+                firstItem = _this.find('li').first();
+            firstItem.addClass('active').fadeIn(100);
 
             setTimeout(function() {
-                switchRotatorItem(_this, _this.data('interval'));
+                switchRotatorItem(_this, firstItem, _this.data('interval'));
             }, _this.data('interval'));
 
         });
