@@ -157,7 +157,7 @@
                         <div class="bottom-rotators container">
                             <!-- awards rotator -->
                             <?php
-                                $post_id = 771;
+                                $post_id = 776;
                                 $queried_post = get_post($post_id);
                                 echo $queried_post->post_content;
                             ?>
@@ -169,7 +169,7 @@
                             ?>
                             <!-- festivals rotator -->
                             <?php
-                                $post_id = 772;
+                                $post_id = 778;
                                 $queried_post = get_post($post_id);
                                 echo $queried_post->post_content;
                             ?>
