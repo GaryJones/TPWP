@@ -191,6 +191,7 @@ function willow_action_enqueue_scripts() {
 	wp_register_style( 'animate', WILLOW_CSS . 'animate.css', array(), '3.1.0-dev' );
 	wp_register_style( 'mediaelement', WILLOW_CSS . 'mediaelementplayer.min.css', array(), '2.14.2' );
 	wp_register_style( 'willow-jquery-magnific-popup', WILLOW_CSS . 'magnific-popup.willow.css', array(), '0.9.9' );
+    wp_register_style( 'custom-style', WILLOW_CSS . 'custom.style.css', array(), '0.9.9' );
 	wp_register_style( 'willow-style', WILLOW_CSS . 'style.css', array(
 		'willow-bootstrap',
 		'fontawesome',
@@ -198,7 +199,7 @@ function willow_action_enqueue_scripts() {
 		'animate',
 		'mediaelement',
 		'willow-jquery-magnific-popup',
-        'custom.style.css'
+        'custom-style'
 	), $theme_data->get( 'Version' ) );
 	wp_enqueue_style( 'willow-style' );
 
