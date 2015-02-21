@@ -38,9 +38,10 @@
 	position: absolute;
 	pointer-events: none;
 	border-color: rgba(136, 183, 213, 0);
-	border-top-color: #88b7d5;
+	border-top-color: #152233;
 	border-width: 30px;
 	margin-left: -30px;
+	z-index:1;
 }
 #events h2{
 	color: #ffffff !important;
