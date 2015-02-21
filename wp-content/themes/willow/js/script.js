@@ -362,6 +362,7 @@
 						    interval = $el.data( 'interval' ),
 						    id       = $el.data( 'tr-id' );
 
+                        console.log($el.find( 'li' ));
 						$el.find( 'li' ).each(function(){ $items.push( $(this) ) });
 
 						if( typeof id !== 'undefined' ) {
