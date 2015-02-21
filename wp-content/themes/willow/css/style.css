@@ -13,6 +13,9 @@
 	padding-top:0 !important;
 	padding-bottom: 108px !important;
 }
+#infographics {
+	background-color: #E9F3FC;
+}
 
 /**
  * WordPress Core
@@ -2459,6 +2462,7 @@ img {
 	text-transform: uppercase;
 }
 .wpb_willow_section_heading .section-title.small {
+	display:none;
 	opacity: 0.5;
 	font-size: 13px;
 	letter-spacing: 2px;
