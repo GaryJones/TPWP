@@ -1,7 +1,22 @@
 ;(function( $ ) {
 	"use strict";
 
+    function switchRotatorItem(_this) {
+        _this.find('.active').fadeOut(100).removeClass('active');
+        _this.find('.active').next('li').fadeIn(100).addClass('active');
+    }
+
 	$( document ).on( 'ready', function() {
+
+        $( '.quotes-rotator, .awards-rotator, .festivals-rotator' ).each(function( i, el ) {
+            var _this = $(this);
+            _this.find('li').first().stop().addClass('active').fadeIn(100);
+
+            setTimeout(function() {
+                switchRotatorItem(_this);
+            }, _this.data('interval'));
+
+        });
 		
 		var $anchors   = $( '.section > .section-anchor' ),
 		    $menus     = $( '.menu-item > a' ),
@@ -376,93 +391,6 @@
 				$( el ).bind( 'rotate', rotate() );
 				
 			});
-
-            $( '.quotes-rotator' ).each(function( i, el ) {
-
-                var rotate = function() {
-
-                    return function() {
-
-                        var $el      = $( el ),
-                            $items    = [],
-                            counter  = 0,
-                            interval = $el.data( 'interval' ),
-                            id       = $el.data( 'tr-id' );
-
-                        $el.find( 'li' ).each(function(){ $items.push( $(this) ) });
-
-                        if( typeof id !== 'undefined' ) {
-                            clearTimeout( id );
-                            $el.find( 'li' ).stop( true, true ).hide();
-                        }
-
-                        $items[0].stop( true, true ).fadeIn();
-                        id = setTimeout( doRotate( $el, $items, counter, interval / 2 ), interval );
-                        $el.data( 'tr-id', id );
-                    }
-                };
-
-                $( el ).bind( 'rotate', rotate() );
-
-            });
-
-            $( '.awards-rotator' ).each(function( i, el ) {
-
-                var rotate = function() {
-
-                    return function() {
-
-                        var $el      = $( el ),
-                            $items    = [],
-                            counter  = 0,
-                            interval = $el.data( 'interval' ),
-                            id       = $el.data( 'tr-id' );
-
-                        $el.find( 'li' ).each(function(){ $items.push( $(this) ) });
-
-                        if( typeof id !== 'undefined' ) {
-                            clearTimeout( id );
-                            $el.find( 'li' ).stop( true, true ).hide();
-                        }
-
-                        $items[0].stop( true, true ).fadeIn();
-                        id = setTimeout( doRotate( $el, $items, counter, interval / 2 ), interval );
-                        $el.data( 'tr-id', id );
-                    }
-                };
-
-                $( el ).bind( 'rotate', rotate() );
-
-            });
-
-            $( '.festivals-rotator' ).each(function( i, el ) {
-
-                var rotate = function() {
-
-                    return function() {
-
-                        var $el      = $( el ),
-                            $items    = [],
-                            counter  = 0,
-                            interval = $el.data( 'interval' ),
-                            id       = $el.data( 'tr-id' );
-
-                        $el.find( 'li' ).each(function(){ $items.push( $(this) ) });
-
-                        if( typeof id !== 'undefined' ) {
-                            clearTimeout( id );
-                            $el.find( 'li' ).stop( true, true ).hide();
-                        }
-
-                        $items[0].stop( true, true ).fadeIn();
-                        id = setTimeout( doRotate( $el, $items, counter, interval / 2 ), interval );
-                        $el.data( 'tr-id', id );
-                    }
-                };
-
-                $( el ).bind( 'rotate', rotate() );
-
-            });
 
 			$( '.js-caroufredsel' ).each(function( i, el ) {
 
