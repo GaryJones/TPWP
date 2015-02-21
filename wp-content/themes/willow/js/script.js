@@ -350,6 +350,8 @@
 
 			$( '.text-rotator, .quotes-rotator, .awards-rotator, .festivals-rotator' ).each(function( i, el ) {
 
+                console.log("element : " + el);
+
 				var rotate = function() {
 
 					return function() {
@@ -366,8 +368,6 @@
 							clearTimeout( id );
 							$el.find( 'li' ).stop( true, true ).hide();
 						}
-
-                        console.log($el);
 
 						$items[0].stop( true, true ).fadeIn();
 						id = setTimeout( doRotate( $el, $items, counter, interval / 2 ), interval );

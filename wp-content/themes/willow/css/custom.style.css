@@ -10,6 +10,8 @@
 
 .hero-section .hero-text {padding-bottom: 150px;}
 .hero-section .bottom-rotators {height: 150px; margin-top:-150px; z-index: 1;}
+.hero-section .bottom-rotators ul {list-style: none; padding: 0; margin: 0;}
+.hero-section .bottom-rotators ul li {float:left;}
 .hero-section .bottom-rotators .quotes-rotator, .hero-section .bottom-rotators .awards-rotator, .hero-section .bottom-rotators .festivals-rotator {float:left;}
 
 	/* quotes */
