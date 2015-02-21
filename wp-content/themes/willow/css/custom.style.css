@@ -4,6 +4,7 @@
 .no-border {border: none !important;}
 
 /* "hero" top section */
+.hero-text {z-index:2;}
 .hero-section .hero-slide-style-1 .hero-buttons:after, .hero-section .hero-slide-style-2 .hero-buttons:after {
 	color: #79dcf1;
 }
@@ -37,7 +38,7 @@
 			font-size: 28px;
 			line-height: 36px;
 			color: #FFF;
-			opacity: 0.5;
+			opacity: 0.3;
 			font-family: "Georgia";
 			font-style: italic;
 		}
