@@ -272,6 +272,8 @@
 								<?php endforeach; ?>
 							</ul>
 
+							<div class="header-separator pull-right visible-md visible-lg"></div>
+
 							<?php wp_nav_menu(array(
 								'theme_location' => 'header-navigation',
 								'depth' => 0,
@@ -280,8 +282,6 @@
 								'fallback_cb' => 'Willow_Nav_Walker::fallback',
 								'walker' => new Willow_Nav_Walker(),
 							)); ?>
-
-							<div class="header-separator pull-right visible-md visible-lg"></div>
 
 							<?php if ( willow_option( 'enable_wpml_language_switcher' ) ) : ?>
 

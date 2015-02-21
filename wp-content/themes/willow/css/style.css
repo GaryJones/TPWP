@@ -1,4 +1,12 @@
 /**
+ * Custom CSS
+ */
+
+#menu-main {
+	float: right;
+}
+
+/**
  * WordPress Core
  */
 .alignnone {
