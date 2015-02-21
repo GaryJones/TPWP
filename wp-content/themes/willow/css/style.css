@@ -9,6 +9,10 @@
 #about {
 	padding-top: 80px !important;
 }
+#section-2 {
+	padding-top:0 !important;
+	padding-bottom: 108px !important;
+}
 
 /**
  * WordPress Core
