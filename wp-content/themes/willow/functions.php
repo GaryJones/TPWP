@@ -198,10 +198,10 @@ function willow_action_enqueue_scripts() {
 		'linecons',
 		'animate',
 		'mediaelement',
-		'willow-jquery-magnific-popup',
-        'custom-style'
+		'willow-jquery-magnific-popup'
 	), $theme_data->get( 'Version' ) );
 	wp_enqueue_style( 'willow-style' );
+    wp_enqueue_style( 'custom-style' );
 
 	// Dynamic sStyle
 	ob_start(); include( WILLOW_CSS_DIR . '/style-dynamic.php' ); $dynamic_style = ob_get_clean();
