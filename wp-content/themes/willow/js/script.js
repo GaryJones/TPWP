@@ -8,7 +8,7 @@
             nextItem.fadeIn(100).addClass('active');
 
             setTimeout(function() {
-                switchRotatorItem(nextItem);
+                switchRotatorItem(nextItem, interval);
             }, interval);
         });
     }
@@ -17,7 +17,7 @@
 
         $( '.quotes-rotator, .awards-rotator, .festivals-rotator' ).each(function( i, el ) {
             var _this = $(this);
-            _this.find('li').first().stop().addClass('active').fadeIn(100);
+            _this.find('li').first().addClass('active').fadeIn(100);
 
             setTimeout(function() {
                 switchRotatorItem(_this, _this.data('interval'));
