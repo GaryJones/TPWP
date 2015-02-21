@@ -2,8 +2,11 @@
 	"use strict";
 
     function switchRotatorItem(el, currentItem, interval) {
-        console.log(interval);
-        var nextItem = currentItem.next('li');
+        if(currentItem.next('li').size > 1) {
+            var nextItem = currentItem.next('li');
+        }else {
+            var nextItem = el.find('li').first();
+        }
 
         currentItem.fadeOut( 100, function() {
             currentItem.removeClass('active');
