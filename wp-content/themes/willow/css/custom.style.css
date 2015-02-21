@@ -8,16 +8,17 @@
 	.hero-slide-style-1 .hero-buttons:after, .hero-section .hero-slide-style-2 .hero-buttons:after {
 		color: #79dcf1;
 	}
-	.quotes-rotator {
-		position:absolute;
-		bottom:0;
-		text-align: center;
-		font-size: 24px;
-		color: #555;
-		font-family: "Georgia";
-		span {
-			text-transform: uppercase;
-			font-family: Raleway;
-		}
+}
+
+.quotes-rotator {
+	position:absolute;
+	bottom:0;
+	text-align: center;
+	font-size: 24px;
+	color: #555;
+	font-family: Georgia;
+	span {
+		text-transform: uppercase;
+		font-family: Raleway;
 	}
 }
