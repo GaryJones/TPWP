@@ -145,7 +145,7 @@
 
 									<div class="hero-buttons <?php echo ( $text_style == 'style-3' ) ? 'animate_css animated ' . $css_animation : ''; ?>">
 										<?php if ( willow_dependency_hero_slide_button( $text_style ) && ! empty( $button_text ) ) : ?>
-											<a href="<?php echo $button_link; ?>" class="btn btn-hero-default js-anchor-link"><?php echo $button_text; ?></a>
+											<a href="<?php echo $button_link; ?>" class="btn btn-hero-default js-anchor-link"></a>
 										<?php endif; ?>
 
 										<?php if ( willow_dependency_hero_slide_button_2( $text_style ) && ! empty( $button_2_text ) ) : ?>
