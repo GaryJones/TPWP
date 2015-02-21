@@ -558,7 +558,7 @@ img {
 }
 .dark-scheme .btn-hero-default {
 	color: #ffffff;
-	background-color: #000000;
+	/*background-color: #000000;*/
 }
 .light-scheme .btn-hero-default {
 	color: #000000;
