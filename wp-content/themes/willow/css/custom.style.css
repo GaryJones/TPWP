@@ -9,8 +9,8 @@
 }
 
 .hero-section .hero-text {padding-bottom: 150px;}
-.hero-section .bottom-rotators {height: 150px; margin-top:-150px;}
-.hero-section .bottom-rotators .quotes-rotator, .hero-section .bottom-rotators .awards-rotator, .hero-section .bottom-rotators .festivals-rotator {float:left; z-index: 1;}
+.hero-section .bottom-rotators {height: 150px; margin-top:-150px; z-index: 1;}
+.hero-section .bottom-rotators .quotes-rotator, .hero-section .bottom-rotators .awards-rotator, .hero-section .bottom-rotators .festivals-rotator {float:left;}
 
 	/* quotes */
 	.hero-section .bottom-rotators .quotes-rotator {
@@ -26,7 +26,7 @@
 		}
 
 	/* awards */
-	.hero-section .bottom-rotators .quotes-rotator {
+	.hero-section .bottom-rotators .awards-rotator {
 		width: 28%;
 	}
 
