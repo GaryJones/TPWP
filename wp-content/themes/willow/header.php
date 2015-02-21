@@ -66,7 +66,7 @@
 						<?php if ( ! empty( $logo ) ) : ?>
 							<img src="<?php echo $logo; ?>" alt="<?php bloginfo( 'name' ); ?>" />
 						<?php else : ?>
-							<span><?php bloginfo( 'name' ); ?></span>
+							<div id="releaseDate">CANADIAN THEATRICAL RELEASE: MARCH <span>13, 2015</span></div>
 						<?php endif ?>
 					</div>
 				<?php endif; ?>

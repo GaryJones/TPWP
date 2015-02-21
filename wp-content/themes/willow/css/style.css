@@ -71,9 +71,10 @@
 	padding-bottom: 10px;
 }
 
-#releaseRight span {
+#releaseRight span, #releaseDate span {
 	font-family: Dosis;
 }
+
 .hero-buttons a{
 	height: 40px;
 	width: 5%;
