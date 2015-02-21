@@ -8,17 +8,29 @@
 	color: #79dcf1;
 }
 
-.hero-section .quotes-rotator {
-	position:absolute;
-	bottom:0;
-	text-align: center;
-	font-size: 24px;
-	color: #555;
-	font-family: Georgia;
+.hero-section .hero-text {padding-bottom: 150px;}
+.hero-section .bottom-rotators {height: 150px; margin-top:-150px;}
+.hero-section .bottom-rotators .quotes-rotator, .hero-section .bottom-rotators .awards-rotator, .hero-section .bottom-rotators .festivals-rotator {float:left; z-index: 1;}
 
-}
+	/* quotes */
+	.hero-section .bottom-rotators .quotes-rotator {
+		width: 44%;
+		text-align: center;
+		font-size: 24px;
+		color: #555;
+		font-family: Georgia;
+	}
+		.hero-section .bottom-rotators .quotes-rotator span {
+			text-transform: uppercase;
+			font-family: Raleway;
+		}
 
-.hero-section .quotes-rotator span {
-	text-transform: uppercase;
-	font-family: Raleway;
-}
+	/* awards */
+	.hero-section .bottom-rotators .quotes-rotator {
+		width: 28%;
+	}
+
+	/* awards */
+	.hero-section .bottom-rotators .festivals-rotator {
+		width: 28%;
+	}

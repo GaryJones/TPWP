@@ -154,12 +154,26 @@
 							</div>
 						</div>
 
-                        <!-- quotes rotator -->
-                        <?php
-                            $post_id = 770;
-                            $queried_post = get_post($post_id);
-                            echo $queried_post->post_content;
-                        ?>
+                        <div class="bottom-rotators container">
+                            <!-- awards rotator -->
+                            <?php
+                                $post_id = 771;
+                                $queried_post = get_post($post_id);
+                                echo $queried_post->post_content;
+                            ?>
+                            <!-- quotes rotator -->
+                            <?php
+                                $post_id = 770;
+                                $queried_post = get_post($post_id);
+                                echo $queried_post->post_content;
+                            ?>
+                            <!-- festivals rotator -->
+                            <?php
+                                $post_id = 772;
+                                $queried_post = get_post($post_id);
+                                echo $queried_post->post_content;
+                            ?>
+                        </div>
 
 						<?php $slide_content = ob_get_clean(); ?>
 
