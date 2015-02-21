@@ -2710,3 +2710,10 @@ img {
  * WordPress Custom
  */
 .no-border {border: none !important;}
+
+/* "hero" top section */
+.hero-section {
+	.hero-slide-style-1 .hero-buttons:after, .hero-section .hero-slide-style-2 .hero-buttons:after {
+		color: #79dcf1;
+	}
+}

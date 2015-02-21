@@ -153,6 +153,14 @@
 								
 							</div>
 						</div>
+
+                        <!-- quotes rotator -->
+                        <?php
+                            $post_id = 770;
+                            $queried_post = get_post($post_id);
+                            echo $queried_post->post_content;
+                        ?>
+
 						<?php $slide_content = ob_get_clean(); ?>
 
 						<?php

@@ -348,7 +348,7 @@
 				}
 			}
 
-			$( '.text-rotator' ).each(function( i, el ) {
+			$( '.text-rotator, .quotes-rotator' ).each(function( i, el ) {
 
 				var rotate = function() {
 
@@ -376,6 +376,35 @@
 				$( el ).bind( 'rotate', rotate() );
 				
 			});
+
+//            $( '.quotes-rotator' ).each(function( i, el ) {
+//
+//                var rotate = function() {
+//
+//                    return function() {
+//
+//                        var $el      = $( el ),
+//                            $items    = [],
+//                            counter  = 0,
+//                            interval = $el.data( 'interval' ),
+//                            id       = $el.data( 'tr-id' );
+//
+//                        $el.find( 'li' ).each(function(){ $items.push( $(this) ) });
+//
+//                        if( typeof id !== 'undefined' ) {
+//                            clearTimeout( id );
+//                            $el.find( 'li' ).stop( true, true ).hide();
+//                        }
+//
+//                        $items[0].stop( true, true ).fadeIn();
+//                        id = setTimeout( doRotate( $el, $items, counter, interval / 2 ), interval );
+//                        $el.data( 'tr-id', id );
+//                    }
+//                };
+//
+//                $( el ).bind( 'rotate', rotate() );
+//
+//            });
 
 			$( '.js-caroufredsel' ).each(function( i, el ) {
 
