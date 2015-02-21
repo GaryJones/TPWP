@@ -2459,6 +2459,7 @@ img {
 	text-transform: uppercase;
 }
 .wpb_willow_section_heading .section-title.small {
+	display:none;
 	opacity: 0.5;
 	font-size: 13px;
 	letter-spacing: 2px;
