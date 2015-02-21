@@ -2,7 +2,7 @@
 	"use strict";
 
     function switchRotatorItem(el, currentItem, interval) {
-        if(currentItem.next('li').size > 1) {
+        if(currentItem.next('li').size() > 0) {
             var nextItem = currentItem.next('li');
         }else {
             var nextItem = el.find('li').first();

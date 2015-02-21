@@ -20,30 +20,38 @@
 }
 
 .hero-section .hero-text {padding-bottom: 150px;}
-.hero-section .bottom-rotators {height: 150px; margin-top:-150px; z-index: 1;}
+.hero-section .bottom-rotators {height: 150px; margin-top:-250px; z-index: 1;}
 .hero-section .bottom-rotators ul {list-style: none; padding: 0; margin: 0;}
 .hero-section .bottom-rotators ul li {float:left; display:none;}
 .hero-section .bottom-rotators .quotes-rotator, .hero-section .bottom-rotators .awards-rotator, .hero-section .bottom-rotators .festivals-rotator {float:left;}
 
 	/* quotes */
 	.hero-section .bottom-rotators .quotes-rotator {
-		width: 44%;
+		width: 56%;
 		text-align: center;
 		font-size: 24px;
 		color: #555;
-		font-family: Georgia;
+		font-family: "Georgia";
+		font-style: italic;
+		padding: 0 50px;
 	}
 		.hero-section .bottom-rotators .quotes-rotator span {
 			text-transform: uppercase;
 			font-family: Raleway;
 		}
 
+	.hero-section .bottom-rotators .awards-rotator img, .hero-section .bottom-rotators .festivals-rotator img {
+		width: 100%;
+		height: auto;
+		max-width: 100%;
+	}
+
 	/* awards */
 	.hero-section .bottom-rotators .awards-rotator {
-		width: 28%;
+		width: 22%;
 	}
 
 	/* awards */
 	.hero-section .bottom-rotators .festivals-rotator {
-		width: 28%;
+		width: 22%;
 	}
