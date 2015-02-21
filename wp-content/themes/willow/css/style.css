@@ -45,6 +45,7 @@
 	float: left;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	border-right: 1px solid;
 }
 #releaseRight {
 	width:25%;
