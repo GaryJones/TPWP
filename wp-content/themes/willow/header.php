@@ -125,6 +125,10 @@
                                                                     echo "class='no-border'"; ?>>
                                                                     <?php echo $text; ?>
                                                                 </span>
+
+                                                                <?php if($key > 0)
+                                                                    echo '<div class="hero-bottom-text"><span>A film by Harold Crooks</span></div>';
+                                                                ?>
                                                             </li>
                                                         <?php endforeach; ?>
 													</ul>
