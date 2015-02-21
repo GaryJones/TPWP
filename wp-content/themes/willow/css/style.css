@@ -101,6 +101,7 @@ body {
 	min-height: 100%;
 	position: relative;
 	overflow-x: hidden;
+	font-size: 15.5px;
 }
 section {
 	position: relative;
