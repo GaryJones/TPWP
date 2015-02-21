@@ -1,9 +1,16 @@
 ;(function( $ ) {
 	"use strict";
 
-    function switchRotatorItem(_this) {
-        _this.find('.active').fadeOut(100).removeClass('active');
-        _this.find('.active').next('li').fadeIn(100).addClass('active');
+    function switchRotatorItem(_this, interval) {
+        var nextItem = _this.find('.active').next('li');
+        _this.find('.active').fadeOut( 100, function() {
+            $(this).removeClass('active');
+            nextItem.fadeIn(100).addClass('active');
+
+            setTimeout(function() {
+                switchRotatorItem(nextItem);
+            }, interval);
+        });
     }
 
 	$( document ).on( 'ready', function() {
@@ -13,7 +20,7 @@
             _this.find('li').first().stop().addClass('active').fadeIn(100);
 
             setTimeout(function() {
-                switchRotatorItem(_this);
+                switchRotatorItem(_this, _this.data('interval'));
             }, _this.data('interval'));
 
         });
