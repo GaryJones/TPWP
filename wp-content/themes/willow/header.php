@@ -258,15 +258,6 @@
 
 						<div class="header-separator pull-left visible-md visible-lg"></div>
 
-						<?php wp_nav_menu( array(
-							'theme_location'    => 'header-navigation',
-							'depth'             => 0,
-							'container'         => false,
-							'menu_class'        => 'nav navbar-nav js-superfish sf-menu',
-							'fallback_cb'       => 'Willow_Nav_Walker::fallback',
-							'walker'            => new Willow_Nav_Walker(),
-						) ); ?>
-						
 						<?php $social_media_links = willow_option( 'social_media_links', array() ); ?>
 
 						<?php if ( ! empty( $social_media_links ) ) : ?>
@@ -280,6 +271,15 @@
 									</li>
 								<?php endforeach; ?>
 							</ul>
+
+							<?php wp_nav_menu(array(
+								'theme_location' => 'header-navigation',
+								'depth' => 0,
+								'container' => false,
+								'menu_class' => 'nav navbar-nav js-superfish sf-menu',
+								'fallback_cb' => 'Willow_Nav_Walker::fallback',
+								'walker' => new Willow_Nav_Walker(),
+							)); ?>
 
 							<div class="header-separator pull-right visible-md visible-lg"></div>
 
