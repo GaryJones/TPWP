@@ -4,6 +4,13 @@
 
 /* general */
 .no-border {border: none !important;}
+.fadeInUp {
+	display: block;
+	-webkit-animation-name: fadeInUp;
+	-moz-animation-name: fadeInUp;
+	-o-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
 .fadeInDown {
 	display: block;
 	-webkit-animation-name: fadeInDown;

@@ -25,14 +25,11 @@
             var nextItem = el.find('li').first();
         }
 
-        currentItem.fadeOut( 100, function() {
-            currentItem.removeClass('fadeInDown');
-            nextItem.fadeIn(100).addClass('fadeInDown');
-
-            setTimeout(function() {
-                switchRotatorItem(el, nextItem, interval);
-            }, interval);
-        });
+        currentItem.addClass('fadeInDown').removeClass('fadeInUp');
+        nextItem.addClass('fadeInUp');
+        setTimeout(function() {
+            switchQuoteItem(el, nextItem, interval);
+        }, interval);
     }
 
 	$( document ).on( 'ready', function() {
@@ -53,7 +50,7 @@
         $( '.quotes-rotator' ).each(function( i, el ) {
             var _this = $(this),
                 firstItem = _this.find('li').first();
-            firstItem.addClass('fadeInDown').fadeIn(100);
+            firstItem.addClass('fadeInUp');
 
             setTimeout(function() {
                 switchQuoteItem(_this, firstItem, _this.data('interval'));
