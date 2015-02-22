@@ -5,7 +5,7 @@ extract(shortcode_atts(array(
 	'title' => __("Section", "js_composer")
 ), $atts));
 
-$css_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, 'wpb_accordion_section group', $this->settings['base'], $atts );
+$css_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, $this->settings['base'], $atts );
 $output .= "\n\t\t\t" . '<div class="'.$css_class.'">';
     $output .= "\n\t\t\t\t" . '<h3><a href="#'.sanitize_title($title).'">'.$title.'</a></h3>';
     $output .= "\n\t\t\t\t" . '<div class="vc_clearfix">';
