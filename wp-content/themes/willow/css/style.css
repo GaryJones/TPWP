@@ -251,7 +251,7 @@
 
 #watchTrailer, #getTickets {
 	position: absolute;
-	right: 0px;
+	right: 3%;
 	color: #7BDBF0;
 	z-index: 1;
 	font-size: 22px;
@@ -264,6 +264,7 @@
 }
 
 #getTickets {
+	top:20%;
 }
 
 /**
