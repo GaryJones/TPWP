@@ -82,11 +82,17 @@
 
 #participants {
 	padding-top:75px !important;
+	padding-bottom:20px !important;
 	color: #000 !important;
 }
 
 #participants .section-background {
 	background-image: none !important;
+}
+
+#section-3 {
+	padding-top: 50px !important;
+	padding-bottom: 20px !important;
 }
 
 .hero-buttons a{
