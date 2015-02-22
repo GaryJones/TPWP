@@ -141,6 +141,11 @@
 #team .section-title {
 	margin:0 !important;
 }
+
+#section-6 {
+	padding-top: 0px !important;
+}
+
 /**
  * WordPress Core
  */
