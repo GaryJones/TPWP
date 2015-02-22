@@ -80,6 +80,14 @@
 	font-family: Dosis;
 }
 
+#participants {
+	padding-top:75px !important;
+}
+
+#participants .section-background {
+	background-image: none !important;
+}
+
 .hero-buttons a{
 	height: 40px;
 	width: 5%;
