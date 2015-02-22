@@ -162,6 +162,10 @@
 	z-index: 1;
 }
 
+#blog {
+	padding-bottom:50px !important;
+}
+
 /**
  * WordPress Core
  */
