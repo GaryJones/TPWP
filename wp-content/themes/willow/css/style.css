@@ -112,6 +112,10 @@
 .ui-accordion-header-icon {
 	display: none !important;
 }
+
+#section-5 {
+	background-color: #E9F3FC;
+}
 /**
  * WordPress Core
  */
