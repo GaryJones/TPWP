@@ -55,6 +55,7 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-family: "Raleway" !important;
+	font-weight: 800;
 }
 #releaseLeft {
 	width:75%;
@@ -78,7 +79,7 @@
 }
 
 #releaseRight span, #releaseDate span {
-	font-family: Dosis;
+	/*font-family: Dosis;*/
 }
 
 #participants {
