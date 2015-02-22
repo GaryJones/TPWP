@@ -215,6 +215,10 @@
 	height: 72px;
 }
 
+.logoSponsors:hover {
+	display: none;
+}
+
 /**
  * WordPress Core
  */
