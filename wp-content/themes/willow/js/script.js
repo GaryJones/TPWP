@@ -829,6 +829,9 @@
 			nav: true
 		})
 
+		$(".owl-prev").html("left-arrow");
+		$(".owl-prev").html("right-arrow");
+
 	});
 
 })( jQuery );
