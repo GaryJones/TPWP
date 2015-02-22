@@ -815,6 +815,14 @@
 
 		$(".ui-accordion-header").unbind();
 
+		$('.logoSponsors').hover(
+			function () {
+				$(this).find('img').fadeOut(100);
+			}, function () {
+				$(this).find('img').fadeIn(100);
+			}
+		);
+
 	});
 
 })( jQuery );
