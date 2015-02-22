@@ -182,27 +182,37 @@
 #logo-1 {
 	margin-right:8%;
 	background-image: url('http://www.thepricewepay.ca/wp-content/uploads/2015/02/1-c.jpg');
+	width:80px;
+	height: 74px;
 }
 
 #logo-2 {
 	margin-right: 7%;
 	background-image: url('http://www.thepricewepay.ca/wp-content/uploads/2015/02/2-c.jpg');
+	width: 81px;
+	height: 72px;
 }
 
 #logo-3 {
 	margin-right: 7%;
 	padding-top:1%;
 	background-image: url('http://www.thepricewepay.ca/wp-content/uploads/2015/02/3-c.jpg');
+	width: 334px;
+	height: 45px;
 }
 
 #logo-4 {
 	margin-right: 8%;
 	padding-top: 1%;
 	background-image: url('http://www.thepricewepay.ca/wp-content/uploads/2015/02/4-c.jpg');
+	width: 139px;
+	height: 56px;
 }
 
 #logo-5 {
 	background-image: url('http://www.thepricewepay.ca/wp-content/uploads/2015/02/5-c.jpg');
+	width: 142px;
+	height: 72px;
 }
 
 /**
