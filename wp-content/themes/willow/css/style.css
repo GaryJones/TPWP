@@ -250,8 +250,13 @@
 }
 
 #watchTrailer, #getTickets {
-	position:absolute;
-	right:0;
+	position: absolute;
+	right: 0px;
+	color: #7BDBF0;
+	z-index: 1;
+	font-size: 22px;
+	font-weight: 800;
+	font-family: Raleway;
 }
 
 #watchTrailer {
