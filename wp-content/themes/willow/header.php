@@ -11,6 +11,7 @@
 	</title>
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+	<link rel="stylesheet" href="http://www.thepricewepay.ca/wp-content/themes/willow/css/owl.carousel.css">
 
 	<?php
 	$favicon = willow_option( 'favicon' );

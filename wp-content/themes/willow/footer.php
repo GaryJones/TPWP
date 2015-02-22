@@ -59,6 +59,7 @@
 		<!-- END CUSTOM FOOTER SCRIPTS -->
 
 		<?php wp_footer(); ?>
+		<script src="http://www.thepricewepay.ca/wp-content/themes/willow/js/owl.carousel.min.js"></script>
 
 	</body>
 
