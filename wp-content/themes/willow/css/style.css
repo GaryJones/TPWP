@@ -2313,9 +2313,7 @@ img {
 	margin: 35px 0;
 }
 .wpb_willow_big_title span {
-	display: inline-block;
-	padding: 10px 20px;
-	border: 6px solid;
+	font-size:65px;
 }
 @media ( min-width: 768px ) {
 	.wpb_willow_big_title {
