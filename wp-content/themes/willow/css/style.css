@@ -249,6 +249,19 @@
 	height: 72px;
 }
 
+#watchTrailer, #getTickets {
+	position:absolute;
+	right:0;
+}
+
+#watchTrailer {
+	top:0;
+}
+
+#getTickets {
+	top: 5%;
+}
+
 /**
  * WordPress Core
  */

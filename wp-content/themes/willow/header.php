@@ -60,6 +60,9 @@ if ( $enable_parallax ) wp_enqueue_script( 'jquery-parallax' ); ?>
 
 	<section id="hero" class="hero-section section">
 
+		<div id="watchTrailer">WATCH TRAILER</div>
+		<div id="getTickets">GET TICKETS</div>
+
 		<?php if ( $enable_hero_logo && count( $hero_slides ) > 0 ) : ?>
 			<div class="hero-logo site-logo text-center hidden-xs">
 				<?php $logo = willow_option( 'hero_logo' ); ?>
