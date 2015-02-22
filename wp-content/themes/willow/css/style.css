@@ -107,6 +107,10 @@
 .ui-accordion-header {
 	display: block !important;
 }
+
+.ui-accordion-header-icon {
+	display: none !important;
+}
 /**
  * WordPress Core
  */
