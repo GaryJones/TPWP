@@ -287,6 +287,10 @@
 	right: -10%;
 }
 
+.owl-dots {
+	display: none;
+}
+
 /**
  * WordPress Core
  */
