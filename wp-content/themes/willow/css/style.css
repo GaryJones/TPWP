@@ -137,6 +137,10 @@
 #team {
 	padding-top: 60px !important;
 }
+
+#team .section-title {
+	margin:0 !important;
+}
 /**
  * WordPress Core
  */
