@@ -813,6 +813,8 @@
 			});
 		});
 
+		$(".ui-accordion-header").unbind();
+
 	});
 
 })( jQuery );
