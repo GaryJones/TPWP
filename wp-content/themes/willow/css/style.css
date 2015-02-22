@@ -106,6 +106,7 @@
 
 .ui-accordion-header {
 	display: block !important;
+	outline: none;
 }
 
 .ui-accordion-header-icon {
