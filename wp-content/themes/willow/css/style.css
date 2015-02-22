@@ -105,7 +105,7 @@
 }
 
 .ui-accordion-header {
-	display: block;
+	display: block !important;
 }
 /**
  * WordPress Core
