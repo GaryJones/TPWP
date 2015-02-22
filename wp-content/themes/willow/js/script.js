@@ -830,7 +830,7 @@
 		})
 
 		$(".owl-prev").html("left-arrow");
-		$(".owl-prev").html("right-arrow");
+		$(".owl-next").html("right-arrow");
 
 	});
 
