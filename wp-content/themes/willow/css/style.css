@@ -295,6 +295,10 @@
 	display: none;
 }
 
+.copyright-section {
+	padding: 40px 0px !important;
+}
+
 /**
  * WordPress Core
  */
