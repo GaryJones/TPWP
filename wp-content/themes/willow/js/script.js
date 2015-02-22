@@ -823,6 +823,8 @@
 			}
 		);
 
+		$(".owl-carousel").owlCarousel();
+
 	});
 
 })( jQuery );
