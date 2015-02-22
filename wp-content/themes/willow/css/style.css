@@ -82,7 +82,7 @@
 
 #participants {
 	padding-top:75px !important;
-	color: #000;
+	color: #000 !important;
 }
 
 #participants .section-background {
