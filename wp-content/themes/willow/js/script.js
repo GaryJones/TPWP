@@ -832,6 +832,8 @@
 		$(".owl-prev").html("left-arrow");
 		$(".owl-next").html("right-arrow");
 
+		$(".vc_accordion_tab:eq(2)").css('height','500px');
+
 	});
 
 })( jQuery );
