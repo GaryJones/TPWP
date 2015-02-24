@@ -112,7 +112,7 @@ if (!empty($next_link)) {
 
 							<?php if ( has_post_thumbnail() ) : ?>
 								<div class="portfolio-grid-post-thumbnail">
-									<a href="<?php the_permalink(); ?>" class="js-ajax-popup">
+									<a href="<?php the_permalink(); ?>">
 										<img src="<?php echo willow_aq_resize( get_post_thumbnail_id(), 570, 340, true, true ); ?>" alt="<?php the_title(); ?>" />
 									</a>
 								</div>
@@ -124,7 +124,7 @@ if (!empty($next_link)) {
 								<small class="portfolio-grid-post-category"><?php echo implode( ' / ', $cat_string ); ?></small>
 							<?php endif; ?>
 							
-							<a href="<?php the_permalink(); ?>" class="portfolio-grid-post-view-project-button js-ajax-popup btn"><?php _e( 'Read More', 'willow' ); ?></a>
+							<a href="<?php the_permalink(); ?>" class="portfolio-grid-post-view-project-button btn"><?php _e( 'Read More', 'willow' ); ?></a>
 
 						</div>
 					</div>
