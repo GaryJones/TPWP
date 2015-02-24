@@ -191,11 +191,15 @@
 
 .lineC {}
 
-.smallC {}
+.smallC {
+	font-size:10px;
+}
 
 .mediumC {}
 
-.bigC {}
+.bigC {
+	font-size:22px;
+}
 
 #section-9 {
 	padding-bottom: 50px !important;
