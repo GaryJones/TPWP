@@ -83,8 +83,9 @@
 }
 
 #releaseDate {
-	color: #5C6165;
-	font-size: 22px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
 }
 
 #releaseRight span, #releaseDate span {
@@ -262,17 +263,18 @@
 	right: 3%;
 	color: #7BDBF0;
 	z-index: 1;
-	font-size: 22px;
-	font-weight: 800;
-	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: brandon grotesque;
+	letter-spacing: 0.8px;
 }
 
 #watchTrailer {
-	top:4%;
+	top: 6%
 }
 
 #getTickets {
-	top:9%;
+	top:10%;
 }
 
 .owl-prev {
@@ -297,6 +299,44 @@
 
 .copyright-section {
 	padding: 40px 0px !important;
+}
+
+.hero-middle-text {
+	font-size: 54px;
+}
+
+.hero-middle-text .lowerCase {
+	margin-top: 40px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	letter-spacing: 3.2px;
+	opacity: 0.3;
+}
+
+.hero-bottom-text span{
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+#awards-rotator li {
+	opacity:0.3;
+}
+
+#quotes-rotator {
+	font-size: 24px line-height : 36 px;
+	color: #FFF;
+	opacity: 1;
+	font-family: "merriweather";
+	font-style: italic;
+}
+
+#quotes-rotator span {
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 1.2px;
+	opacity: 0.6;
 }
 
 /**
