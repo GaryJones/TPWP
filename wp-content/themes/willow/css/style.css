@@ -186,7 +186,16 @@
 #section-8 {
 	padding-top: 80px !important;
 	padding-bottom: 40px !important;
+	text-align: center;
 }
+
+.lineC {}
+
+.smallC {}
+
+.mediumC {}
+
+.bigC {}
 
 #section-9 {
 	padding-bottom: 50px !important;
