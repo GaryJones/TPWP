@@ -271,7 +271,7 @@
 	height: 72px;
 }
 
-#watchTrailer, #getTickets {
+#watchTrailer, #getTickets, #getInvolved {
 	position: absolute;
 	right: 3%;
 	color: #7BDBF0;
@@ -288,6 +288,10 @@
 
 #getTickets {
 	top:10%;
+}
+
+#getInvolved {
+	top: 14%;
 }
 
 .owl-prev {

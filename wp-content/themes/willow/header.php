@@ -63,6 +63,7 @@ if ( $enable_parallax ) wp_enqueue_script( 'jquery-parallax' ); ?>
 
 		<div id="watchTrailer">WATCH TRAILER</div>
 		<div id="getTickets">GET TICKETS</div>
+		<div id="getInvolved">GET INVOLVED</div>
 
 		<?php if ( $enable_hero_logo && count( $hero_slides ) > 0 ) : ?>
 			<div class="hero-logo site-logo text-center hidden-xs">
