@@ -149,7 +149,7 @@ if ( $enable_parallax ) wp_enqueue_script( 'jquery-parallax' ); ?>
 							</div>
 
 							<div class="hero-buttons <?php echo ( $text_style == 'style-3' ) ? 'animate_css animated ' . $css_animation : ''; ?>">
-								<?php if ( willow_dependency_hero_slide_button( $text_style ) && ! empty( $button_text ) ) : ?>
+								<?php if ( willow_dependency_hero_slide_button( $text_style ) ) : ?>
 									<a href="<?php echo $button_link; ?>" class="btn-hero-default js-anchor-link"></a>
 								<?php endif; ?>
 
