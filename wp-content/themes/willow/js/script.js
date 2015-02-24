@@ -832,8 +832,11 @@
 		$(".owl-prev").html("left-arrow");
 		$(".owl-next").html("right-arrow");
 
-		$(".vc_accordion_tab:eq(2)").css('height','500px');
-
+		$(".vc_accordion_tab:eq(0) , .vc_accordion_tab:eq(5) , .vc_accordion_tab:eq(11)").css('height','120px');
+		$(".vc_accordion_tab:eq(1) , .vc_accordion_tab:eq(6) , .vc_accordion_tab:eq(12)").css('height', '170px');
+		$(".vc_accordion_tab:eq(2) , .vc_accordion_tab:eq(7) , .vc_accordion_tab:eq(13)").css('height', '170px');
+		$(".vc_accordion_tab:eq(3) , .vc_accordion_tab:eq(8) , .vc_accordion_tab:eq(14)").css('height', '230px');
+		$(".vc_accordion_tab:eq(4) , .vc_accordion_tab:eq(9) , .vc_accordion_tab:eq(15)").css('height', '150px');
 	});
 
 })( jQuery );
