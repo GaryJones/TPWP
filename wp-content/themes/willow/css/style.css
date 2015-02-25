@@ -407,6 +407,10 @@
 	display: none !important;
 }
 
+a .Defaults-envelope-o {
+	color:#000 !important;
+}
+
 /**
  * WordPress Core
  */
