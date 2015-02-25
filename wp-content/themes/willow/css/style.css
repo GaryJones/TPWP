@@ -399,6 +399,10 @@
 	text-align: center;
 }
 
+.video-volume-toggle {
+	display:none !important;
+}
+
 /**
  * WordPress Core
  */
