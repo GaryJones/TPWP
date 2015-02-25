@@ -403,6 +403,10 @@
 	display:none !important;
 }
 
+.single-post #title{
+	display: none !important;
+}
+
 /**
  * WordPress Core
  */
