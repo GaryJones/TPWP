@@ -37,6 +37,7 @@
 }
 
 .hero-section .hero-text {padding-bottom: 150px;}
+.hero-section .poster-img {display: none; position: absolute; right:50px; bottom:50px;}
 .hero-section .bottom-rotators {height: 150px; margin-top:-200px; z-index: 1;}
 .hero-section .bottom-rotators ul {list-style: none; padding: 0; margin: 0;}
 .hero-section .bottom-rotators ul li {float:left; display:none;}
@@ -87,3 +88,8 @@
 	.hero-section .bottom-rotators .festivals-rotator {
 		width: 22%;
 	}
+
+
+@media only screen and (max-width : 1280px) {
+	.hero-section .poster-img {display: block;}
+}

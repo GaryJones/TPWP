@@ -60,6 +60,11 @@
             }, _this.data('interval'));
 
         });
+
+        /* poster */
+        setTimeout(function() {
+            $('.poster-img').addClass('fadeInUp');
+        }, 3000);
 		
 		var $anchors   = $( '.section > .section-anchor' ),
 		    $menus     = $( '.menu-item > a' ),
