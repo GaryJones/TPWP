@@ -221,7 +221,7 @@ if ( $enable_parallax ) wp_enqueue_script( 'jquery-parallax' ); ?>
 					</ul>
 				</div>
 
-                <img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/the-price-we-pay-poster-homepage-thumbnail.png" class="poster-img" />
+                <img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/the-price-we-pay-poster-homepage-thumbnail.png" class="generic-transition poster-img" />
 
 				<?php $slide_content = ob_get_clean(); ?>
 
