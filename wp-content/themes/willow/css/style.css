@@ -225,13 +225,13 @@
 #logo-2 {
 	margin-right: 7%;
 	background-image: url('http://www.thepricewepay.ca/wp-content/uploads/2015/02/2-c.png');
-	width: 81px;
-	height: 72px;
+	width: 73px;
+	height: 70px;
 }
 
 #logo-2 img {
-	width: 81px;
-	height: 72px;
+	width: 73px;
+	height: 70px;
 }
 
 #logo-3 {
@@ -269,6 +269,28 @@
 #logo-5 img {
 	width: 142px;
 	height: 72px;
+}
+
+#logo-6 {
+	background-image: url('http://www.thepricewepay.ca/wp-content/uploads/2015/02/6-c.png');
+	width: 267px;
+	height: 70px;
+}
+
+#logo-6 img {
+	width: 267px;
+	height: 70px;
+}
+
+#logo-7 {
+	background-image: url('http://www.thepricewepay.ca/wp-content/uploads/2015/02/7-c.png');
+	width: 320px;
+	height: 70px;
+}
+
+#logo-7 img {
+	width: 320px;
+	height: 70px;
 }
 
 #watchTrailer, #getTickets, #getInvolved {
