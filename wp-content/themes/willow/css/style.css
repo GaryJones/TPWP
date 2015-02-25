@@ -305,6 +305,10 @@
 	letter-spacing: 0.8px;
 }
 
+#watchTrailer, #getTickets, #getInvolved a {
+	color: #7BDBF0 !important;
+}
+
 #watchTrailer {
 	top: 6%
 }
