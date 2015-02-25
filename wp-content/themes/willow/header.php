@@ -61,9 +61,13 @@ if ( $enable_parallax ) wp_enqueue_script( 'jquery-parallax' ); ?>
 
 	<section id="hero" class="hero-section section">
 
-		<div id="watchTrailer">WATCH TRAILER</div>
-		<div id="getTickets">
+		<div id="watchTrailer">
 			<a href="#videos" class="js-anchor-link">
+				WATCH TRAILER
+			</a>
+		</div>
+		<div id="getTickets">
+			<a href="#buy-tickets" class="js-anchor-link">
 				BUY TICKETS
 			</a>
 		</div>
