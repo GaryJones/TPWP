@@ -64,7 +64,7 @@
 
             /* poster */
             setTimeout(function() {
-                $('.poster-img').addClass('fadeInUp');
+                $('.poster-img').addClass('fadeInUpOpacity');
             }, 3000);
         } );
 		
