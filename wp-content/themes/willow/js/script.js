@@ -37,34 +37,36 @@
 
 	$( document ).on( 'ready', function() {
 
-        /* awards + festivals */
-        $( '.awards-rotator, .festivals-rotator' ).each(function( i, el ) {
-            var _this = $(this),
-                firstItem = _this.find('li').first();
-            firstItem.addClass('active').fadeIn(100);
+        $( 'body' ).on( 'preloader-done', function(){
+            /* awards + festivals */
+            $( '.awards-rotator, .festivals-rotator' ).each(function( i, el ) {
+                var _this = $(this),
+                    firstItem = _this.find('li').first();
+                firstItem.addClass('active').fadeIn(100);
 
+                setTimeout(function() {
+                    switchRotatorItem(_this, firstItem, _this.data('interval'));
+                }, _this.data('interval'));
+
+            });
+
+            /* quotes */
+            $( '.quotes-rotator' ).each(function( i, el ) {
+                var _this = $(this),
+                    firstItem = _this.find('li').first();
+                firstItem.addClass('fadeInUp').fadeIn(100);
+
+                setTimeout(function() {
+                    switchQuoteItem(_this, firstItem, _this.data('interval'));
+                }, _this.data('interval'));
+
+            });
+
+            /* poster */
             setTimeout(function() {
-                switchRotatorItem(_this, firstItem, _this.data('interval'));
-            }, _this.data('interval'));
-
-        });
-
-        /* quotes */
-        $( '.quotes-rotator' ).each(function( i, el ) {
-            var _this = $(this),
-                firstItem = _this.find('li').first();
-            firstItem.addClass('fadeInUp').fadeIn(100);
-
-            setTimeout(function() {
-                switchQuoteItem(_this, firstItem, _this.data('interval'));
-            }, _this.data('interval'));
-
-        });
-
-        /* poster */
-        setTimeout(function() {
-            $('.poster-img').addClass('fadeInUp');
-        }, 3000);
+                $('.poster-img').addClass('fadeInUp');
+            }, 3000);
+        } );
 		
 		var $anchors   = $( '.section > .section-anchor' ),
 		    $menus     = $( '.menu-item > a' ),
