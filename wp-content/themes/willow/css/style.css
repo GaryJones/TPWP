@@ -362,6 +362,10 @@
 
 #awards-rotator li, #festivals-rotator li {
 	opacity:0.3;
+	transition: opacity .5s ease-out;
+	-moz-transition: opacity .5s ease-out;
+	-webkit-transition: opacity .5s ease-out;
+	-o-transition: opacity .5s ease-out;
 }
 #awards-rotator li:hover, #festivals-rotator li:hover {
 	opacity:1;
