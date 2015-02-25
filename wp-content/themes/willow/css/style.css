@@ -1489,7 +1489,7 @@ img {
 	.header-section .navbar-nav > .current_page_item > a:after,
 	.header-section .navbar-nav > .current_page_parent > a:after {
 		content: "";
-		display: block;
+		display: none;
 		position: absolute;
 		bottom: 0;
 		left: 50%;
