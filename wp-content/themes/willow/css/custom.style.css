@@ -73,15 +73,22 @@
 
 /* general */
 .generic-transition {
-	transition: all .5s ease-out;
-	-moz-transition: all .5s ease-out;
-	-webkit-transition: all .5s ease-out;
-	-o-transition: all .5s ease-out;
+	transition: all 1s ease-out;
+	-moz-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
 }
-.poster-img {display: none; position: absolute; right:25px; bottom:75px; z-index:1;}
+.poster-img {opacity: 0; position: absolute; right:25px; bottom:75px; z-index:1;}
 .no-border {border: none !important;}
 .fadeInUp {
 	display: block;
+	-webkit-animation-name: fadeInUp;
+	-moz-animation-name: fadeInUp;
+	-o-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
+.fadeInUp-opacity {
+	opacity: 1;
 	-webkit-animation-name: fadeInUp;
 	-moz-animation-name: fadeInUp;
 	-o-animation-name: fadeInUp;
