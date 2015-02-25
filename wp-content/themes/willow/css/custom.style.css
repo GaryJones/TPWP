@@ -78,7 +78,7 @@
 	-webkit-transition: all 1s ease-out;
 	-o-transition: all 1s ease-out;
 }
-.poster-img {opacity: 0; position: absolute; right:25px; bottom:75px; z-index:1; -webkit-transform: translate3d(0, 50%, 0); transform: translate3d(0, 50%, 0);}
+.poster-img {opacity: 0; position: absolute; right:3%; bottom:75px; z-index:1; -webkit-transform: translate3d(0, 50%, 0); transform: translate3d(0, 50%, 0);}
 .no-border {border: none !important;}
 .fadeInUp {
 	display: block;
