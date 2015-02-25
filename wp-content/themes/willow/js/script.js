@@ -846,7 +846,7 @@
 		$(".vc_accordion_tab:eq(4) , .vc_accordion_tab:eq(10) , .vc_accordion_tab:eq(15)").css('height', '150px');
 
 		$(".Defaults-envelope-o").wrap(function () {
-			return "<a href='mailto:email@filmoption.com'></a>";
+			return "<a href='email@filmoption.com?Subject=See%20www.thepricewepay.ca,%20a%20film%20about%20Tax%20Evasion'></a>";
 		});
 	});
 
