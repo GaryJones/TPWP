@@ -360,8 +360,11 @@
 	letter-spacing: 2px;
 }
 
-#awards-rotator li {
+#awards-rotator li, #festivals-rotator li {
 	opacity:0.3;
+}
+#awards-rotator li:hover, #festivals-rotator li:hover {
+	opacity:1;
 }
 
 #quotes-rotator {
