@@ -204,19 +204,19 @@ if ( $enable_parallax ) wp_enqueue_script( 'jquery-parallax' ); ?>
 					<!-- festivals rotator -->
 					<ul id="festivals-rotator" class="festivals-rotator" data-interval="6000">
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/festival-1.png" alt=""/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/festival-11.png" alt=""/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/festival-1.png" alt=""/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/festival-11.png" alt=""/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/festival-1.png" alt=""/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/festival-11.png" alt=""/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/festival-1.png" alt=""/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/festival-11.png" alt=""/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/festival-1.png" alt=""/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/festival-11.png" alt=""/>
 						</li>
 					</ul>
 				</div>
