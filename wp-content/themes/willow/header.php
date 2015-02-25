@@ -62,7 +62,11 @@ if ( $enable_parallax ) wp_enqueue_script( 'jquery-parallax' ); ?>
 	<section id="hero" class="hero-section section">
 
 		<div id="watchTrailer">WATCH TRAILER</div>
-		<div id="getTickets">BUY TICKETS</div>
+		<div id="getTickets">
+			<a href="#videos" class="js-anchor-link">
+				BUY TICKETS
+			</a>
+		</div>
 
 		<?php if ( $enable_hero_logo && count( $hero_slides ) > 0 ) : ?>
 			<div class="hero-logo site-logo text-center hidden-xs">
