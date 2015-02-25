@@ -2,23 +2,6 @@
  * WordPress Custom
  */
 
-/* general */
-.no-border {border: none !important;}
-.fadeInUp {
-	display: block;
-	-webkit-animation-name: fadeInUp;
-	-moz-animation-name: fadeInUp;
-	-o-animation-name: fadeInUp;
-	animation-name: fadeInUp;
-}
-.fadeInDown {
-	display: block;
-	-webkit-animation-name: fadeInDown;
-	-moz-animation-name: fadeInDown;
-	-o-animation-name: fadeInDown;
-	animation-name: fadeInDown;
-}
-
 /* "hero" top section */
 .hero-text {z-index:2;}
 .hero-section .hero-slide-style-1 .hero-buttons:after, .hero-section .hero-slide-style-2 .hero-buttons:after {
@@ -37,7 +20,7 @@
 }
 
 .hero-section .hero-text {padding-bottom: 150px;}
-.hero-section .poster-img {display: none; position: absolute; right:50px; bottom:50px;}
+.hero-section .poster-img {display: none; position: absolute; right:25px; bottom:75px; z-index:1;}
 .hero-section .bottom-rotators {height: 150px; margin-top:-200px; z-index: 1;}
 .hero-section .bottom-rotators ul {list-style: none; padding: 0; margin: 0;}
 .hero-section .bottom-rotators ul li {float:left; display:none;}
@@ -89,7 +72,24 @@
 		width: 22%;
 	}
 
+/* general */
+.no-border {border: none !important;}
+.fadeInUp {
+	display: block;
+	-webkit-animation-name: fadeInUp;
+	-moz-animation-name: fadeInUp;
+	-o-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
+.fadeInDown {
+	display: block;
+	-webkit-animation-name: fadeInDown;
+	-moz-animation-name: fadeInDown;
+	-o-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+}
 
+/* media queries */
 @media only screen and (max-width : 1280px) {
-	.hero-section .poster-img {display: block;}
+	.hero-section .poster-img {display: none;}
 }
