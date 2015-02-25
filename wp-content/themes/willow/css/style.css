@@ -391,6 +391,10 @@
 	height: 225px;
 }
 
+.active-scroll {
+	display:none !important;
+}
+
 /**
  * WordPress Core
  */
