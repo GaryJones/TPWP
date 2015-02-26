@@ -294,6 +294,18 @@
 	height: 70px;
 }
 
+#logo-8 {
+	background-image: url('http://www.thepricewepay.ca/wp-content/uploads/2015/8-c.png');
+	width: 178px;
+	height: 70px;
+	margin-right: 8%;
+}
+
+#logo-8 img {
+	width: 178px;
+	height: 70px;
+}
+
 #watchTrailer, #getTickets, #getInvolved {
 	position: absolute;
 	right: 3%;
