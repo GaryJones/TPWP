@@ -848,6 +848,8 @@
 		$(".Defaults-envelope-o").wrap(function () {
 			return "<a href='mailto:?Subject=See%20www.thepricewepay.ca,%20a%20film%20about%20Tax%20Evasion'></a>";
 		});
+
+		$('#nav_menu-2 a[href="http://ici-radio-canada.ca/leprixapayer"]').html('Français');
 	});
 
 })( jQuery );
