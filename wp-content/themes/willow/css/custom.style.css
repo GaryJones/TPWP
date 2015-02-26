@@ -144,14 +144,14 @@
 	.awards-rotator  {
 		width: 20% !important;
 		position: absolute;
-		top: 4%;
+		top: 2%;
 		left: 5%;
 		z-index: 1000;
 	}
 	.festivals-rotator {
 		width: 20% !important;
 		position: absolute;
-		top: 11%;
+		top: 8%;
 		z-index: 1000;
 		left: 5%;
 	}
@@ -160,5 +160,16 @@
 	}
 	.section-title {
 		font-size: 32px !important;
+	}
+
+	#releaseLeft {
+		width: 75%;
+	}
+
+	#releaseRight {
+		width: 25%;
+	}
+	#releaseWrap {
+		font-size:15px !important;
 	}
 }
