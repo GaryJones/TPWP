@@ -104,3 +104,12 @@
 @media only screen and (max-width : 1425px) {
 	.hero-section .poster-img {display: none;}
 }
+
+@media ( max-width: 767px ) {
+	.text-rotator li {
+		font-size:30px;
+	}
+	.text-rotator .lowerCase {
+		font-size: 22px;
+	}
+}
