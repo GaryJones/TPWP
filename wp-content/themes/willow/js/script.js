@@ -839,7 +839,7 @@
 		$(".owl-prev").html('<i class="fa fa-angle-left"></i>');
 		$(".owl-next").html('<i class="fa fa-angle-right"></i>');
 
-		if ($window.width() < 769) {
+        if (window.matchMedia('(max-width: 768px)').matches){
             var _tmpWidth = $(".vc_accordion_tab:eq(0)").outerHeight();
             if($(".vc_accordion_tab:eq(6)").outerHeight() > _tmpWidth) {
                 _tmpWidth = $(".vc_accordion_tab:eq(6)").outerHeight();
