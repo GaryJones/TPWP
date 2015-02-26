@@ -187,10 +187,98 @@
 		background-image: none;
 	}
 
-	#logo-1 img, #logo-2 img, #logo-3 img, #logo-4 img, #logo-5 img, #logo-6 img, #logo-7 img, #logo-8 img {
-
+	#logo-1 {
+		width: 40px;
+		height: 37px;
 	}
 
-	#participants .wpb_willow_big_title span {font-size: 32px !important;}
+	#logo-1 img {
+		width: 40px;
+		height: 37px;
+	}
+
+	#logo-2 {
+		width: 36.5px;
+		height: 35px;
+		margin-right: 7%;
+		margin-left: 11%;
+	}
+
+	#logo-2 img {
+		width: 36.5px;
+		height: 35px;
+	}
+
+	#logo-3 {
+		margin-right: 7%;
+		margin-top: 1%;
+		width: 167px;
+		height: 22.5px;
+	}
+
+	#logo-3 img {
+		width: 167px;
+		height: 22.5px;
+	}
+
+	#logo-4 {
+		margin-right: 8%;
+		margin-top: 1%;
+		width: 69.5px;
+		height: 28px;
+	}
+
+	#logo-4 img {
+		width: 69.5px;
+		height: 28px;
+	}
+
+	#logo-5 {
+		width: 71px;
+		height: 36px;
+	}
+
+	#logo-5-a {
+		float: left;
+		margin-right: 6%;
+	}
+
+	#logo-5 img {
+		width: 71px;
+		height: 36px;
+	}
+
+	#logo-6 {
+		width: 133.5px;
+		height: 35px;
+		margin-right: 6%;
+	}
+
+	#logo-6 img {
+		width: 133.5px;
+		height: 35px;
+	}
+
+	#logo-7 {
+		width: 160px;
+		height: 35px;
+		margin-right: 6%;
+	}
+
+	#logo-7 img {
+		width: 160px;
+		height: 35px;
+	}
+
+	#logo-8 {
+		width: 89px;
+		height: 35px;
+	}
+
+	#logo-8 img {
+		width: 89px;
+		height: 35px;
+	}
+
 	.vc_accordion_tab {height: auto !important;}
 }
