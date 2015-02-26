@@ -142,14 +142,14 @@
 		font-size: 20px !important;
 	}
 	.awards-rotator  {
-		width: 25% !important;
+		width: 20% !important;
 		position: absolute;
 		top: 4%;
 		left: 5%;
 		z-index: 1000;
 	}
 	.festivals-rotator {
-		width: 25% !important;
+		width: 20% !important;
 		position: absolute;
 		top: 11%;
 		z-index: 1000;
