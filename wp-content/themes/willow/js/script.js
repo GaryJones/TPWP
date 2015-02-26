@@ -839,12 +839,51 @@
 		$(".owl-prev").html('<i class="fa fa-angle-left"></i>');
 		$(".owl-next").html('<i class="fa fa-angle-right"></i>');
 
-		if ($(window).width() > 769) {
-			$(".vc_accordion_tab:eq(0) , .vc_accordion_tab:eq(6) , .vc_accordion_tab:eq(11)").css('height', '120px');
-			$(".vc_accordion_tab:eq(1) , .vc_accordion_tab:eq(7) , .vc_accordion_tab:eq(12)").css('height', '170px');
-			$(".vc_accordion_tab:eq(2) , .vc_accordion_tab:eq(8) , .vc_accordion_tab:eq(13)").css('height', '170px');
-			$(".vc_accordion_tab:eq(3) , .vc_accordion_tab:eq(9) , .vc_accordion_tab:eq(14)").css('height', '230px');
-			$(".vc_accordion_tab:eq(4) , .vc_accordion_tab:eq(10) , .vc_accordion_tab:eq(15)").css('height', '150px');
+		if ($window.width() < 769) {
+            var _tmpWidth = $(".vc_accordion_tab:eq(0)").outerHeight();
+            if($(".vc_accordion_tab:eq(6)").outerHeight() > _tmpWidth) {
+                _tmpWidth = $(".vc_accordion_tab:eq(6)").outerHeight();
+            }
+            if($(".vc_accordion_tab:eq(11)").outerHeight() > _tmpWidth) {
+                _tmpWidth = $(".vc_accordion_tab:eq(11)").outerHeight();
+            }
+			$(".vc_accordion_tab:eq(0) , .vc_accordion_tab:eq(6) , .vc_accordion_tab:eq(11)").css('height', _tmpWidth+'px');
+
+            var _tmpWidth = $(".vc_accordion_tab:eq(1)").outerHeight();
+            if($(".vc_accordion_tab:eq(7)").outerHeight() > _tmpWidth) {
+                _tmpWidth = $(".vc_accordion_tab:eq(7)").outerHeight();
+            }
+            if($(".vc_accordion_tab:eq(12)").outerHeight() > _tmpWidth) {
+                _tmpWidth = $(".vc_accordion_tab:eq(12)").outerHeight();
+            }
+			$(".vc_accordion_tab:eq(1) , .vc_accordion_tab:eq(7) , .vc_accordion_tab:eq(12)").css('height', _tmpWidth+'px');
+
+            var _tmpWidth = $(".vc_accordion_tab:eq(2)").outerHeight();
+            if($(".vc_accordion_tab:eq(8)").outerHeight() > _tmpWidth) {
+                _tmpWidth = $(".vc_accordion_tab:eq(8)").outerHeight();
+            }
+            if($(".vc_accordion_tab:eq(13)").outerHeight() > _tmpWidth) {
+                _tmpWidth = $(".vc_accordion_tab:eq(13)").outerHeight();
+            }
+			$(".vc_accordion_tab:eq(2) , .vc_accordion_tab:eq(8) , .vc_accordion_tab:eq(13)").css('height', _tmpWidth+'px');
+
+            var _tmpWidth = $(".vc_accordion_tab:eq(3)").outerHeight();
+            if($(".vc_accordion_tab:eq(9)").outerHeight() > _tmpWidth) {
+                _tmpWidth = $(".vc_accordion_tab:eq(9)").outerHeight();
+            }
+            if($(".vc_accordion_tab:eq(14)").outerHeight() > _tmpWidth) {
+                _tmpWidth = $(".vc_accordion_tab:eq(14)").outerHeight();
+            }
+			$(".vc_accordion_tab:eq(3) , .vc_accordion_tab:eq(9) , .vc_accordion_tab:eq(14)").css('height', _tmpWidth+'px');
+
+            var _tmpWidth = $(".vc_accordion_tab:eq(4)").outerHeight();
+            if($(".vc_accordion_tab:eq(10)").outerHeight() > _tmpWidth) {
+                _tmpWidth = $(".vc_accordion_tab:eq(10)").outerHeight();
+            }
+            if($(".vc_accordion_tab:eq(15)").outerHeight() > _tmpWidth) {
+                _tmpWidth = $(".vc_accordion_tab:eq(15)").outerHeight();
+            }
+			$(".vc_accordion_tab:eq(4) , .vc_accordion_tab:eq(10) , .vc_accordion_tab:eq(15)").css('height', _tmpWidth+'px');
 		}
 
 		$(".Defaults-envelope-o").wrap(function () {
