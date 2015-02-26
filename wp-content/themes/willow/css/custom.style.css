@@ -128,4 +128,16 @@
 		width: 100%;
 		padding: 0;
 	}
+	.awards-rotator,  {
+		width: 35%;
+		position: absolute;
+		bottom: 0px;
+		left: 0;
+	}
+	.festivals-rotator {
+		width: 35%;
+		position: absolute;
+		bottom: 0px;
+		right: 0;
+	}
 }
