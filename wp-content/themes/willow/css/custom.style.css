@@ -107,10 +107,10 @@
 
 @media ( max-width: 767px ) {
 	.text-rotator li {
-		font-size:24px;
+		font-size:16px;
 	}
 	.text-rotator .lowerCase {
-		font-size: 14px !important;
+		font-size: 12px !important;
 	}
 	#watchTrailer {
 		top:2%
