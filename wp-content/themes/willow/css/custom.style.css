@@ -158,4 +158,7 @@
 	.bottom-rotators.container {
 		position: inherit;
 	}
+	.section-title {
+		font-size: 32px !important;
+	}
 }
