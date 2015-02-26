@@ -131,18 +131,18 @@
 		z-index:1000;
 	}
 	.awards-rotator  {
-		width: 35% !important;
+		width: 25% !important;
 		position: absolute;
-		top: 2%;
+		top: 4%;
 		left: 2%;
 		z-index: 1000;
 	}
 	.festivals-rotator {
-		width: 35% !important;
+		width: 25% !important;
 		position: absolute;
-		top: 2%;
-		right: 10%;
+		top: 4%;
 		z-index: 1000;
+		left: 34%;
 	}
 	.bottom-rotators.container {
 		position: inherit;
