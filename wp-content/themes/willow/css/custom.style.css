@@ -124,4 +124,8 @@
 	.hero-middle-text span {
 		padding: 0;
 	}
+	.quotes-rotator {
+		width: 100%;
+		padding: 0;
+	}
 }
