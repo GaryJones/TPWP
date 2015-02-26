@@ -839,11 +839,13 @@
 		$(".owl-prev").html('<i class="fa fa-angle-left"></i>');
 		$(".owl-next").html('<i class="fa fa-angle-right"></i>');
 
-		$(".vc_accordion_tab:eq(0) , .vc_accordion_tab:eq(6) , .vc_accordion_tab:eq(11)").css('height','120px');
-		$(".vc_accordion_tab:eq(1) , .vc_accordion_tab:eq(7) , .vc_accordion_tab:eq(12)").css('height', '170px');
-		$(".vc_accordion_tab:eq(2) , .vc_accordion_tab:eq(8) , .vc_accordion_tab:eq(13)").css('height', '170px');
-		$(".vc_accordion_tab:eq(3) , .vc_accordion_tab:eq(9) , .vc_accordion_tab:eq(14)").css('height', '230px');
-		$(".vc_accordion_tab:eq(4) , .vc_accordion_tab:eq(10) , .vc_accordion_tab:eq(15)").css('height', '150px');
+		if ($window.width() < 769) {
+			$(".vc_accordion_tab:eq(0) , .vc_accordion_tab:eq(6) , .vc_accordion_tab:eq(11)").css('height', '120px');
+			$(".vc_accordion_tab:eq(1) , .vc_accordion_tab:eq(7) , .vc_accordion_tab:eq(12)").css('height', '170px');
+			$(".vc_accordion_tab:eq(2) , .vc_accordion_tab:eq(8) , .vc_accordion_tab:eq(13)").css('height', '170px');
+			$(".vc_accordion_tab:eq(3) , .vc_accordion_tab:eq(9) , .vc_accordion_tab:eq(14)").css('height', '230px');
+			$(".vc_accordion_tab:eq(4) , .vc_accordion_tab:eq(10) , .vc_accordion_tab:eq(15)").css('height', '150px');
+		}
 
 		$(".Defaults-envelope-o").wrap(function () {
 			return "<a href='mailto:?Subject=See%20www.thepricewepay.ca,%20a%20film%20about%20Tax%20Evasion'></a>";
