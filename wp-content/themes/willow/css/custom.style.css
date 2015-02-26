@@ -163,7 +163,7 @@
 	.bottom-rotators.container {
 		position: inherit;
 	}
-	.section-title {
+	.section-title, .wpb_willow_big_title span {
 		font-size: 32px !important;
 	}
 
