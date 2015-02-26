@@ -416,6 +416,10 @@
 	opacity: 0.6;
 }
 
+#involved a {
+	color: #52D0E9;
+}
+
 .ult-animation {
 	text-align: center;
 }
