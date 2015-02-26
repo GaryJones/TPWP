@@ -112,10 +112,13 @@
 	.text-rotator .lowerCase {
 		font-size: 12px !important;
 	}
+	#watchTrailer, #getTickets, #getInvolved {
+		font-size: 15px;
+	}
 	#watchTrailer {
-		top:2%
+		top:2%;
 	}
 	#getTickets {
-		top: 6%
+		top: 6%;
 	}
 }
