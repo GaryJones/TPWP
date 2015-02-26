@@ -185,6 +185,7 @@
 
 	#logo-1, #logo-2, #logo-3, #logo-4, #logo-5, #logo-6, #logo-7, #logo-8 {
 		background-image: none;
+		margin-bottom:7%;
 	}
 
 	#logo-1 {
@@ -201,7 +202,7 @@
 		width: 36.5px;
 		height: 35px;
 		margin-right: 7%;
-		margin-left: 11%;
+		margin-left: 20%;
 	}
 
 	#logo-2 img {
@@ -212,6 +213,7 @@
 	#logo-3 {
 		margin-right: 7%;
 		margin-top: 1%;
+		margin-left:7%;
 		width: 167px;
 		height: 22.5px;
 	}
@@ -242,7 +244,7 @@
 	#logo-5-a {
 		float: left;
 		margin-right: 6%;
-		margin-left:15%;
+		margin-left:8%;
 	}
 
 	#logo-5 img {
