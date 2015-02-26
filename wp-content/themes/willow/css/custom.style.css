@@ -110,7 +110,7 @@
 		font-size:16px;
 	}
 	.text-rotator .lowerCase {
-		font-size: 12px !important;
+		display:none;
 	}
 	#watchTrailer, #getTickets, #getInvolved {
 		font-size: 15px;
