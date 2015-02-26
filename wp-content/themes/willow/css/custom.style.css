@@ -105,6 +105,12 @@
 	.hero-section .poster-img {display: none;}
 }
 
+@media ( max-width: 991px ) {
+	.header-section .navbar-nav {float:left;}
+	#releaseLeft {width:67px;}
+	#releaseRight {width:33px;}
+}
+
 @media ( max-width: 767px ) {
 	.text-rotator li {
 		font-size:16px;
