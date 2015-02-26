@@ -420,6 +420,10 @@
 	color: #52D0E9;
 }
 
+#involved a:hover {
+	color: #000;
+}
+
 .copyright-tagline .color-accent, .copyright-tagline a {
 	color: #52D0E9;
 }
