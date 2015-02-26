@@ -836,8 +836,8 @@
 			nav: true
 		})
 
-		$(".owl-prev").html("left-arrow");
-		$(".owl-next").html("right-arrow");
+		$(".owl-prev").html('<i class="fa fa-angle-left"></i>');
+		$(".owl-next").html('<i class="fa fa-angle-right"></i>');
 
 		$(".vc_accordion_tab:eq(0) , .vc_accordion_tab:eq(6) , .vc_accordion_tab:eq(11)").css('height','120px');
 		$(".vc_accordion_tab:eq(1) , .vc_accordion_tab:eq(7) , .vc_accordion_tab:eq(12)").css('height', '170px');
