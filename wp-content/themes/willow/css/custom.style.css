@@ -71,6 +71,11 @@
 		width: 22%;
 	}
 
+.wpb_wrapper .owl-prev .fa-angle-left, .wpb_wrapper .owl-next .fa-angle-right {font-size: 100px;}
+.owl-prev, .owl-next {top:35px;}
+.owl-prev {left: -5%;}
+.owl-next {right: -5%;}
+
 /* general */
 .generic-transition {
 	transition: all 1s ease-out;
@@ -104,8 +109,8 @@
 @media only screen and (max-width : 1425px) {
 	.hero-section .poster-img {display: none;}
 }
-
-@media ( max-width: 991px ) {
+/* tablet */
+@media ( min-width: 768px ) and ( max-width: 991px ) {
 	.header-section .navbar-nav {float:left;}
 	#releaseLeft {width:67px;}
 	#releaseRight {width:33px;}
@@ -176,4 +181,5 @@
 		background-image: none;
 		background-color: #101926;
 	}
+	#participants .wpb_willow_big_title span {font-size: 32px !important;}
 }
