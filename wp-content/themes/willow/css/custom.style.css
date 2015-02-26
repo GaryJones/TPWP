@@ -117,6 +117,7 @@
 }
 
 @media ( max-width: 767px ) {
+	.header-section .navbar-nav {float:left;}
 	.text-rotator li {
 		font-size:16px;
 	}
