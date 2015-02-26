@@ -172,4 +172,8 @@
 	#releaseWrap {
 		font-size:15px !important;
 	}
+	#events {
+		background-image: none;
+		background-color: #101926;
+	}
 }
