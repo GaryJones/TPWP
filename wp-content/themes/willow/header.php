@@ -67,8 +67,8 @@ if ( $enable_parallax ) wp_enqueue_script( 'jquery-parallax' ); ?>
 			</a>
 		</div>
 		<div id="getTickets">
-			<a href="#buy-tickets" class="js-anchor-link">
-				BUY TICKETS
+			<a href="#show-times" class="js-anchor-link">
+				SHOW TIMES
 			</a>
 		</div>
 

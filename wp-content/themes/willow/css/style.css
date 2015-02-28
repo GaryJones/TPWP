@@ -453,6 +453,10 @@ a .Defaults-envelope-o {
 	padding: 0px 12px;
 }
 
+.potfolio .wpb_text_column {
+	padding:0 !important;
+}
+
 /**
  * WordPress Core
  */
