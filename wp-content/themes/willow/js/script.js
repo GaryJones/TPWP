@@ -893,6 +893,12 @@
 		});
 
 		$('#nav_menu-2 a[href="http://ici-radio-canada.ca/leprixapayer"]').html('Français');
+
+		if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+			if (window.location.hash) {
+				jQuery('html,body').animate({scrollTop: jQuery('#involved').offset().top - 70}, 1000);
+			}
+		}
 	});
 
 })( jQuery );

@@ -39,11 +39,6 @@
 	<!-- END CUSTOM HEADER SCRIPTS -->
 
 	<?php wp_head(); ?>
-	<script>
-		function now() {
-			window.location.reload(true);
-		}
-	</script>
 </head>
 
 <?php $preloader_class = ''; if ( willow_option( 'enable_preloader', 1 ) ) $preloader_class .= 'js-preloader'; ?>
