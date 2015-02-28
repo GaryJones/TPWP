@@ -2,6 +2,10 @@
  * Custom CSS
  */
 
+.sectionDiv {
+	position: relative;
+}
+
 #menu-main {
 	float: right;
 }
