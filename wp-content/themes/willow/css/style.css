@@ -453,8 +453,12 @@ a .Defaults-envelope-o {
 	padding: 0px 12px;
 }
 
-.potfolio .wpb_text_column {
+.portfolio .wpb_text_column {
 	padding:0 !important;
+}
+
+.portfolio .vc_column_container {
+	padding-left: 0 !important;
 }
 
 /**
