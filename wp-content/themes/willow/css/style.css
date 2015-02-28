@@ -26,7 +26,7 @@
 }
 #events {
 	background-image: url('http://www.thepricewepay.ca/wp-content/uploads/2015/02/bg-events.jpg');
-	background-size: 100%;
+	background-size: cover;
 }
 #videos {
 	padding-top:70px !important;
