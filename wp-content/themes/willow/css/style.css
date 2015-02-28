@@ -461,6 +461,10 @@ a .Defaults-envelope-o {
 	padding-left: 0 !important;
 }
 
+.portfolio .wpb_video_widget {
+	padding-left:0 !important;
+}
+
 /**
  * WordPress Core
  */
