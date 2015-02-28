@@ -71,16 +71,12 @@
 	width:75%;
 	text-align: left;
 	float: left;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	border-right: 1px solid;
 }
 #releaseRight {
 	width:25%;
 	text-align: right;
 	float: left;
-	padding-top: 10px;
-	padding-bottom: 10px;
 }
 
 #releaseDate {
