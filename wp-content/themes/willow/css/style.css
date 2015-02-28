@@ -62,9 +62,10 @@
 	border-bottom: 1px solid;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-family: "Raleway" !important;
-	font-weight: 800;
-	font-size: 22px;
+	font-family: "open sans" !important;
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 0.5px;
 }
 #releaseLeft {
 	width:75%;
