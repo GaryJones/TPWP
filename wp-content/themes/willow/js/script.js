@@ -896,7 +896,8 @@
 
 		if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
 			if (window.location.hash) {
-				jQuery('html,body').animate({scrollTop: jQuery('#involved').offset().top - 70}, 1000);
+				var hash = window.location.hash.substring(1);
+				jQuery('html,body').animate({scrollTop: jQuery("#"+hash).offset().top - 70}, 1000);
 			}
 		}
 	});
