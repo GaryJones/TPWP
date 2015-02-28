@@ -35,8 +35,8 @@ $style = $this->buildStyle( '', $bg_color, '', $font_color, $padding, $margin_bo
 if ( $this->settings['base'] == 'vc_row' ) : ?>
 
 	<?php if ( empty( $id ) ) $id = willow_generate_id( 'section-' ); ?>
-
-	<div id="<?php echo $id; ?>" class="sectionDiv <?php echo $el_class . vc_shortcode_custom_css_class( $css, ' ' ) . ' content-section section vc-section separator-' . $separator; ?>"<?php echo $style; ?>>
+	<div style="clear:both">
+	<section id="<?php echo $id; ?>" class="<?php echo $el_class . vc_shortcode_custom_css_class( $css, ' ' ) . ' content-section section vc-section separator-' . $separator; ?>"<?php echo $style; ?>>
 
 		<div class="section-anchor section-top-anchor" data-anchor="top" data-section="#<?php echo $id; ?>"></div>
 		
@@ -95,6 +95,7 @@ if ( $this->settings['base'] == 'vc_row' ) : ?>
 
 		<div class="section-anchor section-bottom-anchor" data-anchor="bottom" data-section="#<?php echo $id; ?>"></div>
 
+	</section>
 	</div>
 	<?php echo $this->endBlockComment( 'row' ); ?>
 
