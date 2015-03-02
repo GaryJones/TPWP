@@ -114,6 +114,9 @@
 	.header-section .navbar-nav {float:left;}
 	#releaseLeft {width:67px;}
 	#releaseRight {width:33px;}
+
+	.hero-middle-text {font-size: 45px;}
+	.lowerCase {font-size: 18px;}
 }
 
 @media ( max-width: 767px ) {
