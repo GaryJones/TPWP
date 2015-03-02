@@ -174,19 +174,10 @@ if ( $enable_parallax ) wp_enqueue_script( 'jquery-parallax' ); ?>
 					<!-- awards rotator -->
 					<ul id="awards-rotator" class="awards-rotator" data-interval="6000">
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/award-1.png"/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_11.png"/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/award-1.png"/>
-						</li>
-						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/award-1.png"/>
-						</li>
-						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/award-1.png"/>
-						</li>
-						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/award-1.png"/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_12.png"/>
 						</li>
 					</ul>
 
