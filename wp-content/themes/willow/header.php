@@ -211,37 +211,37 @@ if ( $enable_parallax ) wp_enqueue_script( 'jquery-parallax' ); ?>
 					<!-- festivals rotator -->
 					<ul id="festivals-rotator" class="festivals-rotator" data-interval="6000">
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91.png"/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_FESTIVAL_256x91.png"/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_3.png"/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_FESTIVAL_256x91_3.png"/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_4.png"/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_FESTIVAL_256x91_4.png"/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_5.png"/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_FESTIVAL_256x91_5.png"/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_6.png"/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_FESTIVAL_256x91_6.png"/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_7.png"/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_FESTIVAL_256x91_7.png"/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_8.png"/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_FESTIVAL_256x91_8.png"/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_9.png"/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_FESTIVAL_256x91_9.png"/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_10.png"/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_FESTIVAL_256x91_10.png"/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_11.png"/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_FESTIVAL_256x91_11.png"/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_12.png"/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_FESTIVAL_256x91_12.png"/>
 						</li>
 					</ul>
 				</div>
