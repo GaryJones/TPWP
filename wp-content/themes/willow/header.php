@@ -238,10 +238,10 @@ if ( $enable_parallax ) wp_enqueue_script( 'jquery-parallax' ); ?>
 							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_FESTIVAL_256x91_10.png"/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_FESTIVAL_256x91_11.png"/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_FESTIVAL_250x91_11.png"/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_FESTIVAL_256x91_12.png"/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_FESTIVAL_250x91_12.png"/>
 						</li>
 					</ul>
 				</div>
