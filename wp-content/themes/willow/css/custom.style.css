@@ -110,7 +110,7 @@
 	.hero-section .poster-img {display: none;}
 }
 /* tablet */
-@media ( min-width: 768px ) and ( max-width: 1024px ) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and ( min-width: 768px ) and ( max-width: 1024px ) {
 	.header-section .navbar-nav {float:left;}
 	#releaseLeft {width:67px;}
 	#releaseRight {width:33px;}
