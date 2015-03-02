@@ -211,19 +211,37 @@ if ( $enable_parallax ) wp_enqueue_script( 'jquery-parallax' ); ?>
 					<!-- festivals rotator -->
 					<ul id="festivals-rotator" class="festivals-rotator" data-interval="6000">
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/festival-11.png" alt=""/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91.png"/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/festival-11.png" alt=""/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_3.png"/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/festival-11.png" alt=""/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_4.png"/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/festival-11.png" alt=""/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_5.png"/>
 						</li>
 						<li>
-							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/02/festival-11.png" alt=""/>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_6.png"/>
+						</li>
+						<li>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_7.png"/>
+						</li>
+						<li>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_8.png"/>
+						</li>
+						<li>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_9.png"/>
+						</li>
+						<li>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_10.png"/>
+						</li>
+						<li>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_11.png"/>
+						</li>
+						<li>
+							<img src="http://www.thepricewepay.ca/wp-content/uploads/2015/03/LG_AWARDS_250X91_12.png"/>
 						</li>
 					</ul>
 				</div>
