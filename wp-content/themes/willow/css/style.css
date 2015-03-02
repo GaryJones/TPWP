@@ -465,6 +465,11 @@ a .Defaults-envelope-o {
 	padding-left:0 !important;
 }
 
+.portfolio .vc_separator {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
 /**
  * WordPress Core
  */
