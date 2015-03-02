@@ -115,8 +115,8 @@
 	#releaseLeft {width:67px;}
 	#releaseRight {width:33px;}
 
-	.hero-middle-text {font-size: 40px !important;}
-	.lowerCase {font-size: 16px !important;}
+	.hero-middle-text {font-size: 38px !important;}
+	.lowerCase {font-size: 14px !important;}
 }
 
 @media ( max-width: 767px ) {
