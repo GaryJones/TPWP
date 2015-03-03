@@ -187,31 +187,31 @@ if ( $enable_parallax ) wp_enqueue_script( 'jquery-parallax' ); ?>
 							&ldquo;&#9734; &#9734; &#9734; &#9734; &#9734; STARS! Relentless...as striking as the image on its poster: a cocked gun with a roll of cash.&rdquo; <span><br/>- Christophe Alix, Liberation</span>
 						</li>
 						<li>
-							"5 STARS! Edifying!" <span><br/>- Pierre Fornerod, Ouest France</span>
+							&ldquo;&#9734; &#9734; &#9734; &#9734; &#9734; STARS! Edifying!&rdquo; <span><br/>- Pierre Fornerod, Ouest France</span>
 						</li>
 						<li>
-							"5 STARS! A complete success. An alarming documentary but essential that deserves a broad release!" <span><br/>- Gilles Herail, TLC Toute La Culture</span>
+							&ldquo;&#9734; &#9734; &#9734; &#9734; &#9734; STARS! A complete success. An alarming documentary but essential that deserves a broad release!&rdquo; <span><br/>- Gilles Herail, TLC Toute La Culture</span>
 						</li>
 						<li>
-							"ESSENTIAL VIEWING!"  <span><br/>- Mark Achbar, Director, Sundance winning The Corporation</span>
+							&ldquo;ESSENTIAL VIEWING!&rdquo;  <span><br/>- Mark Achbar, Director, Sundance winning The Corporation</span>
 						</li>
 						<li>
-							"RIVETING, CLEAR, ESSENTIAL!" <span><br/>- Paris Match</span>
+							&ldquo;RIVETING, CLEAR, ESSENTIAL!&rdquo; <span><br/>- Paris Match</span>
 						</li>
 						<li>
-							"LIVELY AND INFORMATIVE!" <span><br/>- Le Cafe Pedagogique</span>
+							&ldquo;LIVELY AND INFORMATIVE!&rdquo; <span><br/>- Le Cafe Pedagogique</span>
 						</li>
 						<li>
-							"5 STARS! An edifying documentary!" <span><br/>- L'Humanite</span>
+							&ldquo;&#9734; &#9734; &#9734; &#9734; &#9734; STARS! An edifying documentary!&rdquo; <span><br/>- L'Humanite</span>
 						</li>
 						<li>
-							 "Clear...brilliant...alarming...the major issue for the coming years." <span><br/>- Sophie Avon - SUD-OUEST</span>
+							&ldquo;Clear...brilliant...alarming...the major issue for the coming years.&rdquo; <span><br/>- Sophie Avon - SUD-OUEST</span>
 						</li>		
 						<li>
-							"4 STARS!" <span><br/>- Michel Cieutat, Positif</span>
+							&ldquo;&#9734; &#9734; &#9734; &#9734; STARS!&rdquo; <span><br/>- Michel Cieutat, Positif</span>
 						</li>
 						<li>
-							"4 STARS!" <span><br/>- Louis Guichard, Telerama</span>
+							&ldquo;&#9734; &#9734; &#9734; &#9734; STARS!&rdquo; <span><br/>- Louis Guichard, Telerama</span>
 						</li>
 					</ul>
 					<!-- festivals rotator -->
