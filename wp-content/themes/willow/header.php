@@ -184,19 +184,34 @@ if ( $enable_parallax ) wp_enqueue_script( 'jquery-parallax' ); ?>
 					<!-- quotes rotator -->
 					<ul id="quotes-rotator" class="quotes-rotator" data-interval="6000">
 						<li>
-							"1 Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet!" <span>- Peter Parker, The Daily Bugle
+							&ldquo;&#9734; &#9734; &#9734; &#9734; &#9734; STARS! Relentless...as striking as the image on its poster: a cocked gun with a roll of cash.&rdquo; <span><br/>- Christophe Alix, Liberation</span>
 						</li>
 						<li>
-							"2 Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet!" <span>- Peter Parker, The Daily Bugle
+							"5 STARS! Edifying!" <span><br/>- Pierre Fornerod, Ouest France</span>
 						</li>
 						<li>
-							"3 Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet!" <span>- Peter Parker, The Daily Bugle
+							"5 STARS! A complete success. An alarming documentary but essential that deserves a broad release!" <span><br/>- Gilles Herail, TLC Toute La Culture</span>
 						</li>
 						<li>
-							"4 Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet!" <span>- Peter Parker, The Daily Bugle
+							"ESSENTIAL VIEWING!"  <span><br/>- Mark Achbar, Director, Sundance winning The Corporation</span>
 						</li>
 						<li>
-							"5 Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet!" <span>- Peter Parker, The Daily Bugle
+							"RIVETING, CLEAR, ESSENTIAL!" <span><br/>- Paris Match</span>
+						</li>
+						<li>
+							"LIVELY AND INFORMATIVE!" <span><br/>- Le Cafe Pedagogique</span>
+						</li>
+						<li>
+							"5 STARS! An edifying documentary!" <span><br/>- L'Humanite</span>
+						</li>
+						<li>
+							 "Clear...brilliant...alarming...the major issue for the coming years." <span><br/>- Sophie Avon - SUD-OUEST</span>
+						</li>		
+						<li>
+							"4 STARS!" <span><br/>- Michel Cieutat, Positif</span>
+						</li>
+						<li>
+							"4 STARS!" <span><br/>- Louis Guichard, Telerama</span>
 						</li>
 					</ul>
 					<!-- festivals rotator -->
