@@ -404,6 +404,12 @@
 	opacity: 1;
 	font-family: "merriweather";
 	font-style: italic;
+	width:56%;
+}
+
+#quotes-rotator li {
+	width: 100%;
+	text-align: center;
 }
 
 .quotes-rotator {
