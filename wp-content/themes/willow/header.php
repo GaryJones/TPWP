@@ -184,13 +184,13 @@ if ( $enable_parallax ) wp_enqueue_script( 'jquery-parallax' ); ?>
 					<!-- quotes rotator -->
 					<ul id="quotes-rotator" class="quotes-rotator" data-interval="6000">
 						<li>
-							&ldquo;&#9734; &#9734; &#9734; &#9734; &#9734; STARS! Relentless...as striking as the image on its poster: a cocked gun with a roll of cash.&rdquo; <span><br/>- Christophe Alix, Liberation</span>
+							&ldquo;&#9733; &#9733; &#9733; &#9733; &#9733; Relentless...as striking as the image on its poster: a cocked gun with a roll of cash.&rdquo; <span><br/>- Christophe Alix, Liberation</span>
 						</li>
 						<li>
-							&ldquo;&#9734; &#9734; &#9734; &#9734; &#9734; STARS! Edifying!&rdquo; <span><br/>- Pierre Fornerod, Ouest France</span>
+							&ldquo;&#9733; &#9733; &#9733; &#9733; &#9733; Edifying!&rdquo; <span><br/>- Pierre Fornerod, Ouest France</span>
 						</li>
 						<li>
-							&ldquo;&#9734; &#9734; &#9734; &#9734; &#9734; STARS! A complete success. An alarming documentary but essential that deserves a broad release!&rdquo; <span><br/>- Gilles Herail, TLC Toute La Culture</span>
+							&ldquo;&#9733; &#9733; &#9733; &#9733; &#9733; A complete success. An alarming documentary but essential that deserves a broad release!&rdquo; <span><br/>- Gilles Herail, TLC Toute La Culture</span>
 						</li>
 						<li>
 							&ldquo;ESSENTIAL VIEWING!&rdquo;  <span><br/>- Mark Achbar, Director, Sundance winning The Corporation</span>
@@ -202,16 +202,16 @@ if ( $enable_parallax ) wp_enqueue_script( 'jquery-parallax' ); ?>
 							&ldquo;LIVELY AND INFORMATIVE!&rdquo; <span><br/>- Le Cafe Pedagogique</span>
 						</li>
 						<li>
-							&ldquo;&#9734; &#9734; &#9734; &#9734; &#9734; STARS! An edifying documentary!&rdquo; <span><br/>- L'Humanite</span>
+							&ldquo;&#9733; &#9733; &#9733; &#9733; &#9733; An edifying documentary!&rdquo; <span><br/>- L'Humanite</span>
 						</li>
 						<li>
 							&ldquo;Clear...brilliant...alarming...the major issue for the coming years.&rdquo; <span><br/>- Sophie Avon - SUD-OUEST</span>
 						</li>		
 						<li>
-							&ldquo;&#9734; &#9734; &#9734; &#9734; STARS!&rdquo; <span><br/>- Michel Cieutat, Positif</span>
+							&ldquo;&#9733; &#9733; &#9733; &#9733;&rdquo; <span><br/>- Michel Cieutat, Positif</span>
 						</li>
 						<li>
-							&ldquo;&#9734; &#9734; &#9734; &#9734; STARS!&rdquo; <span><br/>- Louis Guichard, Telerama</span>
+							&ldquo;&#9733; &#9733; &#9733; &#9733;&rdquo; <span><br/>- Louis Guichard, Telerama</span>
 						</li>
 					</ul>
 					<!-- festivals rotator -->
