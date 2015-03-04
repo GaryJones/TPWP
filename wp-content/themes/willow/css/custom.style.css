@@ -72,7 +72,6 @@
 	}
 
 .wpb_wrapper .owl-prev .fa-angle-left, .wpb_wrapper .owl-next .fa-angle-right {font-size: 100px;}
-.owl-prev, .owl-next {top:35px;}
 .owl-prev {left: -5%;}
 .owl-next {right: -5%;}
 
@@ -114,7 +113,9 @@
 	.header-section .navbar-nav {float:left;}
 	#releaseLeft {width:67px;}
 	#releaseRight {width:33px;}
-
+	.owl-prev, .owl-next {
+		top: 35px;
+	}
 	.hero-middle-text {font-size: 38px !important;}
 	.lowerCase {font-size: 14px !important;}
 }
