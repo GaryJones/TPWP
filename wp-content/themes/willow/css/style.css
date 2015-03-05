@@ -337,6 +337,7 @@
 
 #getTickets {
 	top:10%;
+	display:none;
 }
 
 #getInvolved {
@@ -1429,7 +1430,7 @@ img {
 	.hero-section .hero-slide-style-1 .hero-middle-text,
 	.hero-section .hero-slide-style-2 .hero-middle-text,
 	.hero-section .hero-slide-style-3 .hero-middle-text {
-		font-size: 64px;
+		font-size: 54px;
 	}
 }
 /**
