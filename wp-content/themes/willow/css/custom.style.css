@@ -10,7 +10,7 @@
 .hero-section .hero-slide-style-2 .hero-middle-text span .lowerCase {
 	margin-top: 40px;
 	font-weight: 600;
-	font-size: 24px;
+	font-size: 21px;
 	line-height: 32px;
 	text-transform: uppercase;
 }
@@ -111,8 +111,6 @@
 /* tablet */
 @media only screen and ( min-width: 768px ) and ( max-width: 1024px ) {
 	.header-section .navbar-nav {float:left;}
-	#releaseLeft {width:67px;}
-	#releaseRight {width:33px;}
 	.hero-middle-text {font-size: 38px !important;}
 	.lowerCase {font-size: 14px !important;}
 }
